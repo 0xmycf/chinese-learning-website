@@ -2,21 +2,16 @@
     export let text, translation;
     
     let show = false;
+    let content = text;
 
     let onHover = () => {
-        show = !show;
-        console.log(translation);
+        content = content === text ? translation : text
       }
 </script>
 
 <div
   on:mouseenter={onHover}
   on:mouseleave={onHover}> 
-    { text }
+    { content }
 </div>
 
-{#if show}
-  <p>
-    Show is set to {show}
-  </p>
-{/if}

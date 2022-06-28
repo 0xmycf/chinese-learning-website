@@ -10,5 +10,5 @@
     <p>{@html body}</p>
 {/each}
 
-<Chinesetext text="Nei5Hou2" translation="Hello"/>
+<Chinesetext text="你好" translation="Hello"/>
 
