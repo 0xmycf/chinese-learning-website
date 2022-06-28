@@ -10,6 +10,6 @@
 	{/each}
 </section>
 
-<a href="./test/lorem">To Lorem</a>
-<a href="./test/ipsum">To Ipsum</a>
+<a href="/test/lorem">To Lorem</a>
+<a href="/test/ipsum">To Ipsum</a>
 
