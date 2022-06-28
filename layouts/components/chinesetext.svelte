@@ -11,8 +11,7 @@
 
 <div
   on:mouseenter={onHover}
-  on:mouseleave={onHover}
-  on:mouseover={onHover}>
+  on:mouseleave={onHover}> 
     { text }
 </div>
 
