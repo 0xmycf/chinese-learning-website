@@ -4,13 +4,16 @@
 # IMPORTANT NOTE: CURRENTLY THIS SCRIPT DEPENDS ON https://github.com/njvack/markdown-to-json 
 # AND DOES NOT WORK WITH PYTHON 3.9. I INTEND TO WRITE MY OWN VERSION OF THIS SCRIPT IN THE FUTURE.
 
+# copies the file in ../content/index.json to ../convert/index-copy.json
+cat ../content/index.json > ../content/index-copy.json
+
 # first check if the user is me (mycf), it might not work on other machines
 if [ "$USER" != "mycf" ]; then
     echo "You are not the original author. You can still use this script, if you change ./markdown-pages/convertpages.sh. Only do so if you know what you are doing."
     exit 1
 fi
 
-alias md_to_js='python3.7 /Library/Frameworks/Python.framework/Versions/3.7/bin/md_to_json'
+MDTOJS='python3.7 /Library/Frameworks/Python.framework/Versions/3.7/bin/md_to_json'
 
 # first mirror the folder structure of the markdown-pages directory to the ../content directory
 for dir in ./*; do
@@ -38,7 +41,7 @@ for dir in ./*; do
                 fi
             fi
 
-            md_to_js $file > ../content/$(basename $dir)/$(basename $file .md).json
+            $MDTOJS $file > ../content/$(basename $dir)/$(basename $file .md).json
         done
     fi
 done
@@ -58,5 +61,7 @@ for file in *.md; do
             fi
         fi
     fi
-    md_to_js $file > ../content/$(basename $file .md).json
+    $MDTOJS $file > ../content/$(basename $file .md).json
 done
+
+mv ../content/index-copy.json ../content/index.json

@@ -1,7 +1,5 @@
 {
 	"routes": {
-		"pages": ":filename",
-		"index": ":paginate(totalPages)"
 	},
 	"baseurl": "/",
 	"build": "public",
