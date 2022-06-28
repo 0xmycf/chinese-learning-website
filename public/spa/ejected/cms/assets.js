@@ -1,1 +1,0 @@
-let allAssets=["assets/.DS_Store","assets/logo.svg"];export default allAssets

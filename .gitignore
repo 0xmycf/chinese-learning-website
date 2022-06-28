@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows,linux,visualstudiocode,vim,emacs,haskell,julia,java,gradle,maven,scala,kotlin,rust,clojure,node,purescript,intellij+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,linux,visualstudiocode,vim,emacs,haskell,julia,java,gradle,maven,scala,kotlin,rust,clojure,node,purescript,intellij+all
 
+# Plenti build folder
+public
+
 ### Clojure ###
 pom.xml
 pom.xml.asc
