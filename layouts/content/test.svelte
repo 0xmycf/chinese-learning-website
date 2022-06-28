@@ -1,4 +1,6 @@
 <script>
+    import Chinesetext from "../components/chinesetext.svelte";
+
     export let Header, Body;
 </script>
 
@@ -7,3 +9,6 @@
 {#each Body as body}
     <p>{@html body}</p>
 {/each}
+
+<Chinesetext text="Nei5Hou2" translation="Hello"/>
+

@@ -1,4 +1,4 @@
-# About this
+# WIP
 
 Since I was very little I wanted to learn Chinese.
   After talking to some friend I decided its finally time to start seriously learning
