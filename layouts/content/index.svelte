@@ -1,5 +1,5 @@
 <script>
-	export let title, intro;
+	export let title, intro, allContent;
 </script>
 
 <h1>{title}</h1>
@@ -10,6 +10,14 @@
 	{/each}
 </section>
 
-<a href="/test/lorem">To Lorem</a>
-<a href="/test/ipsum">To Ipsum</a>
+{#each allContent as content}
+  {#if content.type === 'dict' ||  content.type === 'test'}
+    <a href={content.path}>To: {content.path}</a>
+  {/if}
+{/each}
 
+<style>
+  a {
+    display: block;
+  }
+</style>

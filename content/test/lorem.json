@@ -9,16 +9,14 @@
             "translation": "Hello"
         },
         {
-            "text": "codeword Nam a lacus quis mauris lobortis aliquet sed et nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce malesuada elementum vestibulum. Vestibulum elementum augue id ipsum tristique finibus. Donec luctus hendrerit ipsum, at finibus quam hendrerit ac. In volutpat lorem eget mollis egestas. Sed tellus risus, dapibus quis elementum eget, tincidunt ut lacus. Curabitur tempor aliquet ligula sit amet convallis. Nunc ut nibh mi. Donec malesuada et urna at cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque pharetra ex dui, consequat accumsan mauris condimentum sed.\n"
+            "text": "Nam a lacus quis mauris lobortis aliquet sed et nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce malesuada elementum vestibulum. Vestibulum elementum augue id ipsum tristique finibus. Donec luctus hendrerit ipsum, at finibus quam hendrerit ac. In volutpat lorem eget mollis egestas. Sed tellus risus, dapibus quis elementum eget, tincidunt ut lacus. Curabitur tempor aliquet ligula sit amet convallis. Nunc ut nibh mi. Donec malesuada et urna at cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque pharetra ex dui, consequat accumsan mauris condimentum sed.\n"
+        },
+        {
+            "text": "\u5927\u5bb6\u597d",
+            "translation": "Hello Everyone"
         },
         {
             "text": "Quisque aliquam justo malesuada eros pulvinar, non viverra ex sodales. Etiam dapibus nec mauris vel mollis. Nunc nunc ex, rutrum id lectus pretium, gravida dignissim ligula. Proin metus magna, semper at tellus eget, convallis iaculis ligula. Quisque aliquam sed erat in vehicula. Morbi ultrices lectus quis ex molestie lacinia. Nam venenatis consequat convallis. Nulla vitae augue id metus gravida rutrum.\n"
         }
-    ],
-    "Codes": {
-        "codeword": {
-            "text": "DaaiGaaHou",
-            "translation": "Hello Everyone"
-        }
-    }
+    ]
 }

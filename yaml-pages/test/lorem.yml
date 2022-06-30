@@ -6,7 +6,6 @@ Body:
   - text: 你好
     translation: Hello
   - text: >
-      codeword
       Nam a lacus quis mauris lobortis aliquet sed et nibh.
       Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
       Fusce malesuada elementum vestibulum.
@@ -18,6 +17,8 @@ Body:
       Nunc ut nibh mi.
       Donec malesuada et urna at cursus.
       Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque pharetra ex dui, consequat accumsan mauris condimentum sed.
+  - text: 大家好
+    translation: Hello Everyone
   - text: >
       Quisque aliquam justo malesuada eros pulvinar, non viverra ex sodales.
       Etiam dapibus nec mauris vel mollis.
@@ -27,7 +28,3 @@ Body:
       Morbi ultrices lectus quis ex molestie lacinia.
       Nam venenatis consequat convallis.
       Nulla vitae augue id metus gravida rutrum.
-Codes:
-  codeword:
-    text: DaaiGaaHou
-    translation: Hello Everyone
