@@ -1,7 +1,6 @@
 <script>
     export let text, translation;
     
-    let show = false;
     let content = text;
 
     let onHover = () => {
@@ -9,9 +8,9 @@
       }
 </script>
 
-<div
+<p
   on:mouseenter={onHover}
   on:mouseleave={onHover}> 
     { content }
-</div>
+</p>
 
