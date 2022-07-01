@@ -1,25 +1,9 @@
 <script>
+    import { getDictionary } from "../scripts/get_dictionary.svelte";
+
     export let allContent;
 
-    const dictEntries = allContent.filter(entry => entry.type === 'dict')[0];
-      /* const dictEntries = { */
-      /*     "fields": { */
-      /*         "\u4f60\u597d": { */
-      /*             "text": "\u4f60\u597d", */
-      /*             "translation": "Hello", */
-      /*             "jyutping": "Nei5 Hou2", */
-      /*             "pinyin": "Ni Hau" */
-      /*         }, */
-      /*         "\u5927\u5bb6\u597d": { */
-      /*             "text": "\u5927\u5bb6\u597d", */
-      /*             "translation": "Hello Everyone", */
-      /*             "jyutping": "Daai6 Gaa1 Hou2", */
-      /*             "pinyin": "Dai ... Hau" */
-      /*         } */
-      /*       } */
-      /*   }; */
-
-    const dict = dictEntries.fields;
+    const dict = getDictionary(allContent)
 </script>
 
 <h1>Dictionary</h1>
@@ -29,14 +13,14 @@
 </p>
 
 
-<div style="margin-bottom: 10px;" class="bold-childs">
+<div style="margin-bottom: 10px;" class="bold-childs inline-outer-div">
   <div class="inline-div">Chinese Characters</div>
   <div class="inline-div">Translation</div>
   <div class="inline-div">Jyutping</div>
   <div class="inline-div">Pinyin</div>
 </div>
 {#each Object.keys(dict) as key}
-  <div>
+  <div class="inline-outer-div">
     <div class="inline-div">{key}</div>
     <div class="inline-div">{dict[key].translation}</div>
     <div class="inline-div">{dict[key].jyutping}</div>
@@ -50,8 +34,13 @@
 </div>
 
 <style>
+  .inline-outer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .inline-div {
-    display: inline-block;
+    /* display: inline-block; */
     width: 200px;
   }
 
