@@ -11,11 +11,11 @@
       };
 </script>
 
-<div>
-  <p on:mouseenter={onHover} on:mouseleave={onHover}> 
+<div class="chinese-div">
+  <p class="chinese-text" on:mouseenter={onHover} on:mouseleave={onHover}> 
     { content }
   </p>
-  <p>
+  <p class="roman-text">
     {#if mandarin}
       { word.pinyin }
     {:else if cantonese}
@@ -25,10 +25,32 @@
     {/if}
   </p>
   <!-- 
-    In the future this will also display the jyutping and the pinyin beneath,
-      as well as support multiple texts next to each other
-
     TODO: make sure the text doesnt move when hovering over this element
   -->
 </div>
+
+<style>
+  .chinese-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* align-items: center; */
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333;
+    margin: 1rem 0;
+    min-width: 460px;
+    min-height: 90px;
+  }
+
+  .chinese-text {
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-bottom: 0.5rem;
+    min-height: 23px;
+  }
+
+  .roman-text {
+    margin-top: 0.5rem;
+  }
+</style>
 

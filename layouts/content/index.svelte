@@ -10,14 +10,26 @@
 	{/each}
 </section>
 
-{#each allContent as content}
-  {#if content.type === 'dict' ||  content.type === 'test'}
-    <a href={content.path}>To: {content.path}</a>
-  {/if}
-{/each}
+<div class="test-div">
+  {#each allContent as content}
+    {#if content.type === 'dict' ||  content.type === 'test'}
+      <a class="blue-on-hover" href={content.path}>To: {content.path}</a>
+    {/if}
+  {/each}
+</div>
 
 <style>
+  .test-div {
+    display: flex;
+    flex-direction: column;
+  }
+
   a {
-    display: block;
+    transition: all 0.3s ease 0s;
+  }
+
+  .blue-on-hover:hover {
+    /* color: rgb(161, 265, 255); */
+    color: var(--primary);
   }
 </style>
