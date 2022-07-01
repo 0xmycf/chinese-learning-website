@@ -1,31 +1,38 @@
 <script>
   import Singlepage from "./singlepage.svelte";
 
-  export let header, bodyone, bodytwo, allContent;
+  export let header, bodyone, bodytwo, mandarin, cantonese, allContent;
 </script>
 
 <div>
-  <div class="single-page">
-    <Singlepage
-      Header={header}
-      Body={bodyone}
-      allContent={allContent}
-      language="cantonese"
-    />
-  </div>
-
-  <div class="div-boarder"></div>
-
-
-  <div class="single-page">
-    <Singlepage
+  <!-- This makes sure always one site is displayed, even though nothing is checked -->
+  {#if cantonese || (!mandarin && !cantonese)}
+    <div class="single-page">
+      <Singlepage
         Header={header}
-        Body={bodytwo}
+        Body={bodyone}
         allContent={allContent}
-        language="mandarin"
-    />
-  </div>
+        language="cantonese"
+      />
+    </div>
+  {/if}
+  
+  <!-- We only need the boarder if both are displayed -->
+  {#if mandarin && cantonese}
+    <div class="div-boarder"></div>
+  {/if}
 
+  <!-- Mandarin also gets a comment so its not lonely -->
+  {#if mandarin}
+    <div class="single-page">
+      <Singlepage
+          Header={header}
+          Body={bodytwo}
+          allContent={allContent}
+          language="mandarin"
+      />
+    </div>
+  {/if}
 </div>
 
 <style>

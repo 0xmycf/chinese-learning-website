@@ -38,7 +38,6 @@
   <h1>{Header}</h1>
 
   {#each Body as {text}}
-    <!--{#if translation !== undefined}-->
     {#if isChinese(text)}
       <Chinesetext key={text} {dict} {mandarin} {cantonese} />
     {:else}
@@ -47,10 +46,3 @@
   {/each}
 
 </div>
-
-<style>
-  div {
-    /* width: 50%; */
-  }
-</style>
-

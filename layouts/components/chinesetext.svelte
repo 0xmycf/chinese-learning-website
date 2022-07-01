@@ -2,7 +2,7 @@
     export let key, dict, mandarin, cantonese;
     const word = dict[key];
     
-    const text = key;
+    const text = (cantonese || typeof word.simplified === 'undefined') ? key : word.simplified;
     const translation = word.translation;
     let content = text;
 
@@ -21,12 +21,9 @@
     {:else if cantonese}
       { word.jyutping }
     {:else}
-      No romantisation given
+      None given.
     {/if}
   </p>
-  <!-- 
-    TODO: make sure the text doesnt move when hovering over this element
-  -->
 </div>
 
 <style>
@@ -34,7 +31,6 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    /* align-items: center; */
     font-size: 1rem;
     font-weight: 300;
     color: #333;
@@ -53,4 +49,3 @@
     margin-top: 0.5rem;
   }
 </style>
-

@@ -21,7 +21,11 @@
 </div>
 {#each Object.keys(dict) as key}
   <div class="inline-outer-div">
-    <div class="inline-div">{key}</div>
+    {#if typeof dict[key].simplified !== 'undefined'}
+      <div class="inline-div">{key} / {dict[key].simplified}</div>
+    {:else}
+      <div class="inline-div">{key}</div>
+    {/if}
     <div class="inline-div">{dict[key].translation}</div>
     <div class="inline-div">{dict[key].jyutping}</div>
     <div class="inline-div">{dict[key].pinyin}</div>
