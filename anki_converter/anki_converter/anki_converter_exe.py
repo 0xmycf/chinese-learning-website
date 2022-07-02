@@ -67,7 +67,6 @@ def read_anki_json(file):
     def note_to_dict(note):
         # extract the simplified and traditional characters
         chinese = fmap(lambda x: x.strip(), removeSpan(note["fields"][0]).split("/"))
-        print('Chinese: ' + str(chinese))
         traditional = safe_lookup(chinese, 0)
         simplified = safe_lookup(chinese, 1)
         # extract the translation
@@ -98,6 +97,18 @@ def read_anki_json(file):
 if __name__ == '__main__':
     print("Starting!")
 
+    # if any of the sys.argv[1:4] are missing, then exit with error message
+    if len(sys.argv) < 4:
+        print("Usage: python anki_converter_exe.py <input_file> <output_file> <output_format> <optional: concat_filename>")
+        print("............................................................................................................")
+        print("<input_file>     is the file to read from")
+        print("<output_file>    is the file to write to")
+        print("<output_format>  is the format of the output file")
+        print("Supported formats: json, yaml")
+        print("Optional Arguments..........................................................................................")
+        print("<concat_filename>    is the file to concatenate with (if output_format is yaml) [optional]")
+        sys.exit(1)
+
     file_in      = sys.argv[1]
     file_out     = sys.argv[2]
     yaml_or_json = sys.argv[3]
@@ -110,6 +121,7 @@ if __name__ == '__main__':
             loaded = json.load(f)
             with open(file_out, 'w') as f:
                 json.dump({**loaded, **file_in_parsed}, f, indent=4)
+            print("Done!")
             sys.exit(0)
 
     with open(file_out, 'w') as f:
@@ -118,7 +130,4 @@ if __name__ == '__main__':
         else:
             json.dump(file_in_parsed, f, indent=4)
 
-
-
     print("Done!")
-
