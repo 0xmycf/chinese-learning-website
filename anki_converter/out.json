@@ -27,7 +27,7 @@
     },
     "\u591a\u8b1d": {
         "text": "\u591a\u8b1d",
-        "translation": "Danke (formal)",
+        "translation": "&nbsp;Danke (formal)",
         "jyutping": "do1ze6",
         "pinyin": "",
         "simplified": null
@@ -35,7 +35,7 @@
     "\u4fc2": {
         "text": "\u4fc2",
         "translation": "ja, to be (nouns)",
-        "jyutping": "hai6",
+        "jyutping": "hai6&nbsp;",
         "pinyin": "",
         "simplified": null
     },
@@ -49,7 +49,7 @@
     "\u518d\u898b": {
         "text": "\u518d\u898b",
         "translation": "Tsch\u00fcss",
-        "jyutping": "zoi3 gin3",
+        "jyutping": "zoi3 gin3&nbsp;",
         "pinyin": "",
         "simplified": "\u518d\u89c1"
     },
@@ -63,7 +63,7 @@
     "\u4e8c": {
         "text": "\u4e8c",
         "translation": "zwei",
-        "jyutping": "ji6",
+        "jyutping": "ji6&nbsp;",
         "pinyin": "",
         "simplified": null
     },
@@ -76,14 +76,14 @@
     },
     "\u56db": {
         "text": "\u56db",
-        "translation": "vier",
+        "translation": "&nbsp;vier",
         "jyutping": "sei3",
         "pinyin": "",
         "simplified": null
     },
     "\u4e94": {
         "text": "\u4e94",
-        "translation": "f\u00fcnf",
+        "translation": "&nbsp;f\u00fcnf",
         "jyutping": "ng5",
         "pinyin": "",
         "simplified": null
@@ -91,7 +91,7 @@
     "\u516d": {
         "text": "\u516d",
         "translation": "sechs",
-        "jyutping": "luk6",
+        "jyutping": "luk6&nbsp;",
         "pinyin": "",
         "simplified": null
     },
@@ -105,34 +105,34 @@
     "\u516b": {
         "text": "\u516b",
         "translation": "acht",
-        "jyutping": "baat3",
+        "jyutping": "baat3&nbsp;",
         "pinyin": "",
         "simplified": null
     },
     "\u4e5d": {
         "text": "\u4e5d",
-        "translation": "neun",
+        "translation": "&nbsp;neun",
         "jyutping": "gau2",
         "pinyin": "",
         "simplified": null
     },
     "\u5341": {
         "text": "\u5341",
-        "translation": "zehn",
+        "translation": "&nbsp;zehn",
         "jyutping": "sap6",
         "pinyin": "",
         "simplified": null
     },
     "\u4e7e\u676f": {
         "text": "\u4e7e\u676f",
-        "translation": "Prost!",
+        "translation": "&nbsp;Prost!",
         "jyutping": "gon1 bui1",
         "pinyin": "",
         "simplified": null
     },
     "\u563f": {
         "text": "\u563f",
-        "translation": "hey",
+        "translation": "&nbsp;hey",
         "jyutping": "hei1",
         "pinyin": "",
         "simplified": "\u55e8"
@@ -146,7 +146,7 @@
     },
     "\u5973\u4eba": {
         "text": "\u5973\u4eba",
-        "translation": "women, girl",
+        "translation": "&nbsp;women, girl",
         "jyutping": "neoi5 jan4",
         "pinyin": "",
         "simplified": null
@@ -154,14 +154,14 @@
     "\u7537\u4eba": {
         "text": "\u7537\u4eba",
         "translation": "man, boy",
-        "jyutping": "naam4 jan4",
+        "jyutping": "naam4 jan4&nbsp;",
         "pinyin": "",
         "simplified": null
     },
     "\u5973\u4ed4": {
         "text": "\u5973\u4ed4",
-        "translation": "girl (child)",
-        "jyutping": "neoi5 zai2",
+        "translation": "- girl (child)",
+        "jyutping": "neoi5 zai2&nbsp;",
         "pinyin": "",
         "simplified": null
     },
@@ -174,7 +174,7 @@
     },
     "\u6211": {
         "text": "\u6211",
-        "translation": "Ich",
+        "translation": "&nbsp;- Ich",
         "jyutping": "ngo5",
         "pinyin": "",
         "simplified": null
@@ -188,14 +188,14 @@
     },
     "\u937e\u610f": {
         "text": "\u937e\u610f",
-        "translation": "like, be fond of",
+        "translation": "&nbsp;like, be fond of",
         "jyutping": "zung1 ji3",
         "pinyin": "",
         "simplified": null
     },
     "\u649e\u5230": {
         "text": "\u649e\u5230",
-        "translation": "bump into, encounter, meet by chance",
+        "translation": "&nbsp;bump into, encounter, meet by chance",
         "jyutping": "zong6 dou3*2",
         "pinyin": "",
         "simplified": null
@@ -203,20 +203,20 @@
     "\u540c": {
         "text": "\u540c",
         "translation": "and<br><br>1: same, similar, identical<br>2: together",
-        "jyutping": "tung4",
+        "jyutping": "tung4<br>",
         "pinyin": "",
         "simplified": null
     },
     "\u6216\u8005": {
         "text": "\u6216\u8005",
-        "translation": "perhaps, maybe",
+        "translation": "&nbsp;perhaps, maybe",
         "jyutping": "waak6 ze2",
         "pinyin": "",
         "simplified": null
     },
     "\u5b9a\u4fc2": {
         "text": "\u5b9a\u4fc2",
-        "translation": "or (in question where you have a choice)",
+        "translation": "&nbsp;or (in question where you have a choice)",
         "jyutping": "ding6 hai6",
         "pinyin": "",
         "simplified": null
@@ -230,8 +230,8 @@
     },
     "\u96f6": {
         "text": "\u96f6",
-        "translation": "zero, null, nil<br><br>leng4 Ca little more than",
-        "jyutping": "ling4<br>",
+        "translation": "zero, null, nil<br><br>leng4 C - a little more than",
+        "jyutping": "ling4<br><br>",
         "pinyin": "",
         "simplified": null
     },
@@ -245,13 +245,13 @@
     "\u8a08": {
         "text": "\u8a08",
         "translation": "v: count, compute, calculate<br>v: plan",
-        "jyutping": "gai3",
+        "jyutping": "gai3<br>",
         "pinyin": "",
         "simplified": "\u8ba1"
     },
     "\u7b2c": {
         "text": "\u7b2c",
-        "translation": "sequece, number",
+        "translation": "&nbsp;sequece, number",
         "jyutping": "dai6",
         "pinyin": "",
         "simplified": null
@@ -265,7 +265,7 @@
     },
     "\u5343": {
         "text": "\u5343",
-        "translation": "eintausend",
+        "translation": "&nbsp;- eintausend",
         "jyutping": "cin1",
         "pinyin": "",
         "simplified": null
@@ -279,7 +279,7 @@
     },
     "\u8272": {
         "text": "\u8272",
-        "translation": "color",
+        "translation": "&nbsp;- color",
         "jyutping": "sik1",
         "pinyin": "",
         "simplified": null
@@ -293,15 +293,15 @@
     },
     "\u85cd\u8272": {
         "text": "\u85cd\u8272",
-        "translation": "blue",
+        "translation": "&nbsp;- blue",
         "jyutping": "laam4 sik1",
         "pinyin": "",
         "simplified": null
     },
     "\u5561\u8272": {
         "text": "\u5561\u8272",
-        "translation": "braun",
-        "jyutping": "fe1 sik1",
+        "translation": "- braun",
+        "jyutping": "fe1 sik1&nbsp;",
         "pinyin": "",
         "simplified": null
     },
@@ -315,35 +315,35 @@
     "\u91d1": {
         "text": "\u91d1",
         "translation": "gold",
-        "jyutping": "gam1",
+        "jyutping": "gam1&nbsp;",
         "pinyin": "",
         "simplified": null
     },
     "\u91d1\u8272": {
         "text": "\u91d1\u8272",
-        "translation": "golden",
+        "translation": "&nbsp;- golden",
         "jyutping": "gam1 sik1",
         "pinyin": "",
         "simplified": null
     },
     "\u7da0\u8272": {
         "text": "\u7da0\u8272",
-        "translation": "gr\u00fcn",
+        "translation": "&nbsp;- gr\u00fcn",
         "jyutping": "luk6 sik 1",
         "pinyin": "",
         "simplified": null
     },
     "\u7070\u8272": {
         "text": "\u7070\u8272",
-        "translation": "grau",
+        "translation": "&nbsp;grau",
         "jyutping": "fui1 sik1",
         "pinyin": "",
         "simplified": null
     },
     "\u756b": {
         "text": "\u756b",
-        "translation": "[1]: drawing, painting, picture<br><br>[2]:<br>v: draw",
-        "jyutping": "waa2 / waak6",
+        "translation": "[1]: drawing, painting, picture<br><br>[2]:&nbsp;<br>v: draw",
+        "jyutping": "waa2 / waak6<br>",
         "pinyin": "",
         "simplified": null
     },
@@ -356,7 +356,7 @@
     },
     "\u6a59\u8272": {
         "text": "\u6a59\u8272",
-        "translation": "orange (color)",
+        "translation": "&nbsp;orange (color)",
         "jyutping": "caang2 sik1",
         "pinyin": "",
         "simplified": null
@@ -371,34 +371,34 @@
     "\u7d2b\u8272": {
         "text": "\u7d2b\u8272",
         "translation": "violett",
-        "jyutping": "zi2 sik1",
+        "jyutping": "zi2 sik1&nbsp;",
         "pinyin": "",
         "simplified": null
     },
     "\u5f69\u8679": {
         "text": "\u5f69\u8679",
-        "translation": "der Regenbogen",
+        "translation": "&nbsp;der Regenbogen",
         "jyutping": "coi2 hung4",
         "pinyin": "",
         "simplified": null
     },
     "\u7d05\u8272": {
         "text": "\u7d05\u8272",
-        "translation": "rot",
+        "translation": "&nbsp;- rot",
         "jyutping": "hung4 sik1",
         "pinyin": "",
         "simplified": null
     },
     "\u9280\u8272": {
         "text": "\u9280\u8272",
-        "translation": "silbern",
+        "translation": "&nbsp;silbern",
         "jyutping": "ngan4 sik1",
         "pinyin": "",
         "simplified": null
     },
     "\u767d\u8272": {
         "text": "\u767d\u8272",
-        "translation": "wei\u00df",
+        "translation": "&nbsp;- wei\u00df",
         "jyutping": "baak6 sik1",
         "pinyin": "",
         "simplified": null
@@ -412,14 +412,14 @@
     },
     "\u4f9b\u61c9": {
         "text": "\u4f9b\u61c9",
-        "translation": "der Bogen",
+        "translation": "&nbsp;- der Bogen",
         "jyutping": "gung2 jing4",
         "pinyin": "",
         "simplified": null
     },
     "\u5708": {
         "text": "\u5708",
-        "translation": "der Kreis",
+        "translation": "&nbsp;- der Kreis",
         "jyutping": "hyun1",
         "pinyin": "",
         "simplified": null
@@ -433,7 +433,7 @@
     },
     "\u7acb\u65b9\u9ad4": {
         "text": "\u7acb\u65b9\u9ad4",
-        "translation": "der W\u00fcrfel",
+        "translation": "&nbsp;der W\u00fcrfel",
         "jyutping": "laap6 fong1 tai2",
         "pinyin": "",
         "simplified": null
@@ -447,28 +447,28 @@
     },
     "\u516b\u89d2\u5f62": {
         "text": "\u516b\u89d2\u5f62",
-        "translation": "das Achteck",
+        "translation": "&nbsp;das Achteck",
         "jyutping": "baat3 gok3 jing4",
         "pinyin": "",
         "simplified": null
     },
     "\u6a62\u5713\u5f62": {
         "text": "\u6a62\u5713\u5f62",
-        "translation": "das Oval",
-        "jyutping": "to5 jyun4 jing4",
+        "translation": "- das Oval",
+        "jyutping": "to5 jyun4 jing4&nbsp;",
         "pinyin": "",
         "simplified": null
     },
     "\u4e94\u89d2\u5f62": {
         "text": "\u4e94\u89d2\u5f62",
-        "translation": "das F\u00fcnfeck",
+        "translation": "&nbsp;- das F\u00fcnfeck",
         "jyutping": "ng5 gok3 jing4",
         "pinyin": "",
         "simplified": null
     },
     "\u68f1\u9310": {
         "text": "\u68f1\u9310",
-        "translation": "die Pyramide",
+        "translation": "&nbsp;- die Pyramide",
         "jyutping": "ling4 zeoi1",
         "pinyin": "",
         "simplified": null
@@ -482,7 +482,7 @@
     },
     "\u516d\u908a\u5f62": {
         "text": "\u516d\u908a\u5f62",
-        "translation": "Sechseck",
+        "translation": "&nbsp;Sechseck",
         "jyutping": "luk6 bin1 jing4",
         "pinyin": "",
         "simplified": null
@@ -490,14 +490,14 @@
     "\u74b0\u72c0": {
         "text": "\u74b0\u72c0",
         "translation": "der Ring",
-        "jyutping": "waan4 zong6",
+        "jyutping": "waan4 zong6&nbsp;",
         "pinyin": "",
         "simplified": null
     },
     "\u7403\u9ad4": {
         "text": "\u7403\u9ad4",
-        "translation": "die Kugel",
-        "jyutping": "kau4 tai2",
+        "translation": "- die Kugel",
+        "jyutping": "kau4 tai2&nbsp;",
         "pinyin": "",
         "simplified": null
     },
@@ -510,21 +510,21 @@
     },
     "\u4e09\u89d2\u5f62": {
         "text": "\u4e09\u89d2\u5f62",
-        "translation": "das Dreieck",
+        "translation": "&nbsp;das Dreieck",
         "jyutping": "saam1 gok3 jing4",
         "pinyin": "",
         "simplified": null
     },
     "\u6d3e\u5c0d": {
         "text": "\u6d3e\u5c0d",
-        "translation": "party",
+        "translation": "&nbsp;- party",
         "jyutping": "paai3 deoi3",
         "pinyin": "",
         "simplified": null
     },
     "\u7159\u82b1": {
         "text": "\u7159\u82b1",
-        "translation": "das Feuerwerk",
+        "translation": "&nbsp;- das Feuerwerk",
         "jyutping": "jin1 faa1",
         "pinyin": "",
         "simplified": null
@@ -539,14 +539,14 @@
     "\u60c5\u4eba\u7bc0": {
         "text": "\u60c5\u4eba\u7bc0",
         "translation": "Valentinstag",
-        "jyutping": "cing4 jan4 zit3",
+        "jyutping": "cing4 jan4 zit3<br>",
         "pinyin": "",
         "simplified": null
     },
     "\u4e09\u66f4\u534a\u591c": {
         "text": "\u4e09\u66f4\u534a\u591c",
         "translation": "around mid night",
-        "jyutping": "saam1 gang1 bun3 je6/6*2",
+        "jyutping": "saam1 gang1 bun3 je6/6*2&nbsp;",
         "pinyin": "",
         "simplified": null
     },
@@ -560,7 +560,7 @@
     "\u716e": {
         "text": "\u716e",
         "translation": "to cook",
-        "jyutping": "zyu2",
+        "jyutping": "zyu2&nbsp;",
         "pinyin": "zhu3",
         "simplified": null
     },
@@ -573,7 +573,7 @@
     },
     "\u65b0\u5e74": {
         "text": "\u65b0\u5e74",
-        "translation": "das neue Jahr",
+        "translation": "&nbsp;das neue Jahr",
         "jyutping": "san1 nin4",
         "pinyin": "",
         "simplified": null
@@ -594,14 +594,14 @@
     },
     "\u6c7a\u5fc3": {
         "text": "\u6c7a\u5fc3",
-        "translation": "to determine, to resolve, determination",
+        "translation": "&nbsp;to determine, to resolve, determination",
         "jyutping": "kyut3 sam1",
         "pinyin": "jue2 xin1",
         "simplified": "\u51b3\u5fc3"
     },
     "\u56de\u9867": {
         "text": "\u56de\u9867",
-        "translation": "to review, to look back",
+        "translation": "&nbsp;- to review, to look back",
         "jyutping": "wui4 gu3",
         "pinyin": "",
         "simplified": "\u56de\u987e"
@@ -609,7 +609,7 @@
     "\u56de\u61b6": {
         "text": "\u56de\u61b6",
         "translation": "v: to recall, recollect, remember<br>n: recollection",
-        "jyutping": "wui4 jik1",
+        "jyutping": "wui4 jik1&nbsp;",
         "pinyin": "",
         "simplified": "\u56de\u5fc6"
     },
@@ -622,21 +622,21 @@
     },
     "\u4f60": {
         "text": "\u4f60",
-        "translation": "You",
+        "translation": "&nbsp;- You",
         "jyutping": "nei5",
         "pinyin": "",
         "simplified": null
     },
     "\u4f62": {
         "text": "\u4f62",
-        "translation": "He, Him, She",
+        "translation": "&nbsp;He, Him, She",
         "jyutping": "Keoi5",
         "pinyin": "",
         "simplified": null
     },
     "\u55f0\u500b": {
         "text": "\u55f0\u500b",
-        "translation": "that one",
+        "translation": "&nbsp;that one",
         "jyutping": "go2 go3",
         "pinyin": "",
         "simplified": "\ud842\udfb6\u4e2a"
@@ -657,7 +657,7 @@
     },
     "\u6559\u7df4": {
         "text": "\u6559\u7df4",
-        "translation": "to/a coach, to train, an instructor",
+        "translation": "&nbsp;to/a coach, to train, an instructor",
         "jyutping": "gaau3 lin6",
         "pinyin": "jiao4 lian4",
         "simplified": "\u6559\u7ec3"
@@ -665,27 +665,27 @@
     "\u73ed": {
         "text": "\u73ed",
         "translation": "n, classifier: class, team",
-        "jyutping": "baan1",
+        "jyutping": "baan1&nbsp;<br>",
         "pinyin": "",
         "simplified": null
     },
     "\u6559\u7df4\u73ed": {
         "text": "\u6559\u7df4\u73ed",
-        "translation": "instructor class",
+        "translation": "&nbsp;- instructor class",
         "jyutping": "gaau3 lin6 baan1",
         "pinyin": "",
         "simplified": null
     },
     "\u6b66\u8853": {
         "text": "\u6b66\u8853",
-        "translation": "Kriegskunst",
+        "translation": "&nbsp;- Kriegskunst",
         "jyutping": "mou3 soet6",
-        "pinyin": "(wu3)(shu4)",
+        "pinyin": "(wu3)&nbsp;&nbsp;(shu4)",
         "simplified": "\u6b66\u672f"
     },
     "\u8853": {
         "text": "\u8853",
-        "translation": "art, skill, technique",
+        "translation": "&nbsp;art, skill, technique",
         "jyutping": "soet6",
         "pinyin": "shu4",
         "simplified": "\u672f"
@@ -693,7 +693,7 @@
     "\u6b66": {
         "text": "\u6b66",
         "translation": "force, military, warlike",
-        "jyutping": "mou5",
+        "jyutping": "mou5&nbsp;",
         "pinyin": "wu3",
         "simplified": null
     },
@@ -707,7 +707,7 @@
     "\u7f8e\u570b": {
         "text": "\u7f8e\u570b",
         "translation": "American",
-        "jyutping": "mei5 gwok3",
+        "jyutping": "mei5 gwok3&nbsp;",
         "pinyin": "",
         "simplified": null
     },
@@ -727,7 +727,7 @@
     },
     "\u72d7": {
         "text": "\u72d7",
-        "translation": "Dog",
+        "translation": "&nbsp;Dog",
         "jyutping": "gau2",
         "pinyin": "gou3",
         "simplified": null
@@ -741,7 +741,7 @@
     },
     "\u8070\u660e": {
         "text": "\u8070\u660e",
-        "translation": "smart",
+        "translation": "&nbsp;smart",
         "jyutping": "cong1 ming4",
         "pinyin": "cong1 ming2",
         "simplified": "\u806a\u660e"
@@ -755,14 +755,14 @@
     },
     "\u5e8a": {
         "text": "\u5e8a",
-        "translation": "bed",
+        "translation": "&nbsp;bed",
         "jyutping": "cong4",
         "pinyin": "chuang4",
         "simplified": null
     },
     "\u4e0a\u9762": {
         "text": "\u4e0a\u9762",
-        "translation": "on top of",
+        "translation": "&nbsp;on top of",
         "jyutping": "soeng6 min6",
         "pinyin": "",
         "simplified": null
@@ -776,14 +776,14 @@
     },
     "\u8216": {
         "text": "\u8216",
-        "translation": "shop",
+        "translation": "&nbsp;shop",
         "jyutping": "pou3",
         "pinyin": "",
         "simplified": null
     },
     "\u57fa\u672c": {
         "text": "\u57fa\u672c",
-        "translation": "fundamental, basics",
+        "translation": "&nbsp;fundamental, basics",
         "jyutping": "gei1 bun2",
         "pinyin": "",
         "simplified": null
@@ -797,7 +797,7 @@
     },
     "\u5011": {
         "text": "\u5011",
-        "translation": "<span style=\"backgroundcolor: rgb(255, 255, 253);\">an adjunct to a pronoun or noun to indicate plurality (\u4e2d\u83ef)<br></span>",
+        "translation": "<span style=\"background-color: rgb(255, 255, 253);\">an adjunct to a pronoun or noun to indicate plurality (\u4e2d\u83ef)<br></span><br>",
         "jyutping": "mun4",
         "pinyin": "men / men2",
         "simplified": "\u4eec"
@@ -1064,7 +1064,7 @@
     "\u770b": {
         "text": "\u770b",
         "translation": "to see, to read (\u4e2d\u83ef)",
-        "jyutping": "hon3",
+        "jyutping": "&nbsp;hon3",
         "pinyin": "kan4",
         "simplified": null
     },

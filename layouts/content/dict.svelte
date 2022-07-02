@@ -21,14 +21,14 @@
 </div>
 {#each Object.keys(dict) as key}
   <div class="inline-outer-div">
-    {#if typeof dict[key].simplified !== 'undefined'}
+    {#if typeof dict[key].simplified !== 'undefined' && dict[key].simplified !== null}
       <div class="inline-div">{key} / {dict[key].simplified}</div>
     {:else}
       <div class="inline-div">{key}</div>
     {/if}
-    <div class="inline-div">{dict[key].translation}</div>
-    <div class="inline-div">{dict[key].jyutping}</div>
-    <div class="inline-div">{dict[key].pinyin}</div>
+    <div class="inline-div">{@html dict[key].translation}</div>
+    <div class="inline-div">{@html dict[key].jyutping}</div>
+    <div class="inline-div">{@html dict[key].pinyin}</div>
   </div>
 {/each}
 
