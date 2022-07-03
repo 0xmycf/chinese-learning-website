@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-setup(name='anki_to_yajs',
+setup(name='anki_to_yaml',
       version='1.0',
       description='Python script to convert anki.json files to yaml or json',
       author='0xmycf',
