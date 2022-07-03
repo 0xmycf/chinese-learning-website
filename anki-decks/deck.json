@@ -1,0 +1,2456 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "0f39d0f2-f966-11ec-8799-8b1f24b82815",
+    "deck_config_uuid": "0f39e240-f966-11ec-8799-8b1f24b82815",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "0f39e240-f966-11ec-8799-8b1f24b82815",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 40
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 500
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Cantonese",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Hei",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Helvetica",
+                    "name": "Jyutping",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Helvetica",
+                    "name": "Mandarin",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Helvetica",
+                    "name": "Translation",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Helvetica",
+                    "name": "Examples",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Helvetica",
+                    "name": "Notes",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "cantonese",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        3
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "<div style=\"font-size:44px\">\n\t{{FrontSide}}\n</div>\n\n<hr id=answer>\n\n\n{{Translation}}\n\n<hr id=answer>\n\n{{#Jyutping}}\n\t\t<div style=\"text-align:left;\">\n\t\t\tJyutping: <br>\n\t\t</div>\n\t\n\t\t{{Jyutping}}\n\t\t<hr id=answer>\n{{/Jyutping}}\n\n\n{{#Mandarin}}\n\t\t<div style=\"text-align:left;\">\n\t\t\tPinyn: <br>\n\t\t</div>\n\t\t{{Mandarin}}\n\n\t\t<hr id=answer>\n{{/Mandarin}}\n\n{{#Examples}}\n\t{{Examples}}\n\t<hr id=answer>\n{{/Examples}}\n\n\n{{#Notes}}\n\t\t\tNotes:<br>\n\t\t\t{{Notes}}\n{{/Notes}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<div style=\"font-size:44px\">\n\t{{Front}}\n</div>\n"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<div style=\"font-size:44px\">\n\t{{Front}}\n</div>\n\n\n<hr id=answer>\n\n<div style=\"text-align:left;\">\n\tJyutping: <br>\n</div>\n{{Jyutping}}\n\n\n\n{{#Mandarin}}\n\t\t<hr id=answer>\n\t\t<div style=\"text-align:left;\">\n\t\t\tPinyin: <br>\n\t\t</div>\n\t\t{{Mandarin}}\n\n{{/Mandarin}}\n\n{{#Examples}}\n\t<hr id=answer>\n\t{{Examples}}\n{{/Examples}}\n\n\n{{#Notes}}\n\n\t\t<hr id=answer>\n\n\t\t{{Notes}}\n\n{{/Notes}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{Translation}}\n\n"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "嗨",
+                "haai1",
+                "",
+                "Hello",
+                "",
+                ""
+            ],
+            "guid": "qaUJqv~mD-",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "唔該",
+                "m4goi1",
+                "",
+                "Bitte",
+                "",
+                ""
+            ],
+            "guid": "NPpp6-D,2:",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "多謝",
+                "do1ze6",
+                "",
+                "&nbsp;Danke (formal)",
+                "",
+                ""
+            ],
+            "guid": "CBU9EC(+9`",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "係",
+                "hai6&nbsp;",
+                "",
+                "ja, to be (nouns)",
+                "我唔係你。（I am not you)<br>佢係犬。(They is a do)",
+                "Only spoken, written is 是 (si6)"
+            ],
+            "guid": "Fw.#Q.Lxd~",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "唔係",
+                "m4hai6",
+                "",
+                "nein",
+                "",
+                ""
+            ],
+            "guid": "JpkAXkg[X",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "再見 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">再见</span>",
+                "zoi3 gin3&nbsp;",
+                "",
+                "Tschüss",
+                "",
+                "再 - again<br>見 - see"
+            ],
+            "guid": "er/yM;E1-r",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "一",
+                "jat1",
+                "",
+                "eins",
+                "",
+                ""
+            ],
+            "guid": "Ki4ddJ0T?r",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "二",
+                "ji6&nbsp;",
+                "",
+                "zwei",
+                "",
+                ""
+            ],
+            "guid": "s&`o92pBaF",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "三",
+                "saam1",
+                "",
+                "drei",
+                "",
+                "Jyutping saam3 is used only in literary (e.g.&nbsp;<a href=\"http://www.cantonese.sheik.co.uk/dictionary/words/251/\">三思</a>) or other rare compounds.<br><br><a href=\"http://www.cantonese.sheik.co.uk/dictionary/characters/%E4%B8%89/#\">叁</a>&nbsp;is the variant and formal form used on checks, in accounting and banking."
+            ],
+            "guid": "m$^HrWBe,|",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "四",
+                "sei3",
+                "",
+                "&nbsp;vier",
+                "",
+                ""
+            ],
+            "guid": "F*3Zy-02W>",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "五",
+                "ng5",
+                "",
+                "&nbsp;fünf",
+                "",
+                ""
+            ],
+            "guid": "J[n@5}4Z*t",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "六",
+                "luk6&nbsp;",
+                "",
+                "sechs",
+                "",
+                ""
+            ],
+            "guid": "cZUvCrTh5<",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "七",
+                "cat1",
+                "",
+                "sieben",
+                "",
+                ""
+            ],
+            "guid": "n/)i75F)lQ",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "八",
+                "baat3&nbsp;",
+                "",
+                "acht",
+                "",
+                ""
+            ],
+            "guid": "q[0.AlvX8P",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "九",
+                "gau2",
+                "",
+                "&nbsp;neun",
+                "",
+                ""
+            ],
+            "guid": "rqC+iD%aNw",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "十",
+                "sap6",
+                "",
+                "&nbsp;zehn",
+                "",
+                ""
+            ],
+            "guid": "wHK7ohqLSp",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "乾杯",
+                "gon1 bui1",
+                "",
+                "&nbsp;Prost!",
+                "",
+                ""
+            ],
+            "guid": "wfuPNP]Sfw",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "嘿 / 嗨",
+                "hei1",
+                "",
+                "&nbsp;hey",
+                "",
+                "hoi1 in&nbsp;<span style=\"color: rgb(9, 0, 18);\">嗨喲</span>&nbsp;(hoi1 jo1) - yo ho"
+            ],
+            "guid": "x*=PJ#h$OR",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "好",
+                "hou2 / hou3",
+                "",
+                "[1]<br>adj: good, fine, nice<br>adv: very, quite, fairly<br><br>[2]<br>v: like, love, be fond of<br>v: be liable to, be likely to",
+                "",
+                ""
+            ],
+            "guid": "CL<<,vHI`9",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "女人",
+                "neoi5 jan4",
+                "",
+                "&nbsp;women, girl",
+                "",
+                ""
+            ],
+            "guid": "J,d2I~zp6[",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "男人",
+                "naam4 jan4&nbsp;",
+                "",
+                "man, boy",
+                "",
+                ""
+            ],
+            "guid": "bGF-L;K(UH",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "女仔",
+                "neoi5 zai2&nbsp;",
+                "",
+                "- girl (child)",
+                "",
+                ""
+            ],
+            "guid": "AoX}`s-@,+",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "男仔",
+                "naam4 zai2",
+                "",
+                "boy",
+                "",
+                ""
+            ],
+            "guid": "r51z8&1$%m",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "我",
+                "ngo5",
+                "",
+                "&nbsp;- Ich",
+                "",
+                ""
+            ],
+            "guid": "ySwx>0.}/1",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "中意",
+                "zung1 ji3",
+                "",
+                "love, be to one's liking, catch the fancy of",
+                "",
+                ""
+            ],
+            "guid": "w+&Jj{K*69",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">鍾意</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "zung1 ji3",
+                "",
+                "&nbsp;like, be fond of",
+                "",
+                "only cantonese"
+            ],
+            "guid": "i^oOBCojw>",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "撞到",
+                "zong6 dou3*2",
+                "",
+                "&nbsp;bump into, encounter, meet by chance, run into/across",
+                "",
+                "When&nbsp;<a href=\"http://www.cantonese.sheik.co.uk/dictionary/words/48786/\">撞到</a>&nbsp;is followed by such nouns as&nbsp;<a href=\"http://www.cantonese.sheik.co.uk/dictionary/characters/654/\">鬼</a>&nbsp;or&nbsp;<a href=\"http://www.cantonese.sheik.co.uk/dictionary/characters/3461/\">邪</a>, the word&nbsp;<a href=\"http://www.cantonese.sheik.co.uk/dictionary/characters/673/\">到</a>&nbsp;is usually omitted with a tone change for&nbsp;<a href=\"http://www.cantonese.sheik.co.uk/dictionary/characters/2111/\">撞</a>&nbsp;from zong6 to zong2.<br><br>撞: bump against<br>到: arrive, go to<br><br>Mandarin uses:&nbsp;<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">撞見 (zong6 gin3)</span>"
+            ],
+            "guid": "i`v!`XUuFM",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "同",
+                "tung4<br>",
+                "",
+                "and<br><br>1: same, similar, identical<br>2: together, in common<br>3: with, as, like<br>4:&nbsp;<b>and</b>, as well<br>5 C: for, on behalf of",
+                "",
+                ""
+            ],
+            "guid": "co$l+x_#]+",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "或者",
+                "waak6 ze2",
+                "",
+                "&nbsp;perhaps, maybe",
+                "",
+                ""
+            ],
+            "guid": "IImD`VTyRe",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">定係</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "ding6 hai6",
+                "",
+                "&nbsp;or (in question where you have a choice)",
+                "",
+                "often abbreviated to just 定"
+            ],
+            "guid": "x:Fg73pI0L",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "呢個 / 呢个",
+                "ni1 go3",
+                "ni1 ge4",
+                "this, this one",
+                "",
+                "only cantonese, mandarin is: 這個 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">这个&nbsp;</span>(ze3&nbsp;go3)"
+            ],
+            "guid": "C.XjHA`)Jv",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "零",
+                "ling4<br><br>",
+                "",
+                "zero, null, nil<br><br>leng4 C - a little more than",
+                "",
+                ""
+            ],
+            "guid": "AQ}/otxoX7",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "想",
+                "soeng2",
+                "",
+                "<br>v: think, consider, suppose<br>v: hope, expect<br>v: plan<br>v: remember with longing, miss<br>v: want, would like to",
+                "",
+                ""
+            ],
+            "guid": "myv6};chL8",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "計 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">计</span>",
+                "gai3<br>",
+                "",
+                "v: count, compute, calculate<br>v: plan, scheme, devise<br>n: meter, gauge, measuring device",
+                "",
+                ""
+            ],
+            "guid": "Gc-{@S,lOl",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "第",
+                "dai6",
+                "",
+                "&nbsp;sequece, number",
+                "",
+                "第一 means first<br>第二 second etc..."
+            ],
+            "guid": "zI@X]]a7yS",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "百萬 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">百万</span>",
+                "baak4 maan6",
+                "",
+                "a million",
+                "",
+                ""
+            ],
+            "guid": "wO,X5isNwq",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "千",
+                "cin1",
+                "",
+                "&nbsp;- eintausend",
+                "",
+                ""
+            ],
+            "guid": "bn.Phi:T}W",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "黑色",
+                "hak1 sik1",
+                "",
+                "schwarz",
+                "",
+                ""
+            ],
+            "guid": "wR.caxx0R<",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">色</span>",
+                "sik1",
+                "",
+                "&nbsp;- color",
+                "",
+                ""
+            ],
+            "guid": "8dXi^dtm}",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">心</span>",
+                "sam1",
+                "",
+                "heart",
+                "",
+                ""
+            ],
+            "guid": "PodCwU=1gw",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "藍色",
+                "laam4 sik1",
+                "",
+                "&nbsp;- blue",
+                "",
+                ""
+            ],
+            "guid": "tvJVpve7]O",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "啡色",
+                "fe1 sik1&nbsp;",
+                "",
+                "- braun",
+                "",
+                ""
+            ],
+            "guid": "dzrDg1awf`",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "玩",
+                "waan2 / wun6",
+                "",
+                "[1]: to play, have fun<br><br>[2]: appreciate, enjoy",
+                "",
+                "waan2 - play, have fun<br><br>wun6 - appreciate, enjoy"
+            ],
+            "guid": "PJ}?Cklq1e",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "金",
+                "gam1&nbsp;",
+                "",
+                "gold",
+                "",
+                ""
+            ],
+            "guid": "w4kh@*ax1/",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "金色",
+                "gam1 sik1",
+                "",
+                "&nbsp;- golden",
+                "",
+                ""
+            ],
+            "guid": "H4q;!x2MG2",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "綠色",
+                "luk6 sik 1",
+                "",
+                "&nbsp;- grün",
+                "",
+                ""
+            ],
+            "guid": "scTnR-nZd8",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "灰色",
+                "fui1 sik1",
+                "",
+                "&nbsp;grau",
+                "",
+                ""
+            ],
+            "guid": "n+VZROpLMa",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "畫",
+                "waa2 / waak6<br>",
+                "",
+                "[1]: drawing, painting, picture<br><br>[2]:&nbsp;<br>v: draw, paint<br>n: stroke of a chinese character",
+                "",
+                "[1]: waa2<br><br>[2]: waak6"
+            ],
+            "guid": "b<M>}kA!`D",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "寫 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">写</span>",
+                "se2",
+                "",
+                "write, draw, paint, describe",
+                "",
+                ""
+            ],
+            "guid": "PC{o^3Rf[*",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "橙色",
+                "caang2 sik1",
+                "",
+                "&nbsp;orange (color)",
+                "",
+                ""
+            ],
+            "guid": "tPg$o9P2AV",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "粉紅色",
+                "fan2 hung4 sik1",
+                "",
+                "rosa",
+                "",
+                ""
+            ],
+            "guid": "h(N{i^iv}P",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "紫色",
+                "zi2 sik1&nbsp;",
+                "",
+                "violett",
+                "",
+                ""
+            ],
+            "guid": "le%1M8PNR6",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "彩虹",
+                "coi2 hung4",
+                "",
+                "&nbsp;der Regenbogen",
+                "",
+                ""
+            ],
+            "guid": "s#!Surj>$#",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "紅色",
+                "hung4 sik1",
+                "",
+                "&nbsp;- rot",
+                "",
+                ""
+            ],
+            "guid": "P%S^xMfH^b",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "銀色",
+                "ngan4 sik1",
+                "",
+                "&nbsp;silbern",
+                "",
+                ""
+            ],
+            "guid": "D]{)`Wu2e?",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "白色",
+                "baak6 sik1",
+                "",
+                "&nbsp;- weiß",
+                "",
+                ""
+            ],
+            "guid": "@hYF4(IV<",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "黃色",
+                "wong4 sik1",
+                "",
+                "gelb",
+                "",
+                ""
+            ],
+            "guid": "bRC5Ih+}.{",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "供應",
+                "gung2 jing4",
+                "",
+                "&nbsp;- der Bogen",
+                "",
+                ""
+            ],
+            "guid": "txWN$u]FSP",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "圈",
+                "hyun1",
+                "",
+                "&nbsp;- der Kreis",
+                "",
+                ""
+            ],
+            "guid": "cZ/vS46!L4",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "錐體",
+                "zeoi1 tai2",
+                "",
+                "der Kegel",
+                "",
+                ""
+            ],
+            "guid": "v=$-KrC>h_",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "立方體",
+                "laap6 fong1 tai2",
+                "",
+                "&nbsp;der Würfel",
+                "",
+                ""
+            ],
+            "guid": "O:{1Y&)[.e",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "圓筒",
+                "jyun4 tung2",
+                "",
+                "der Zylinder",
+                "",
+                ""
+            ],
+            "guid": "g3vBI#0b,}",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "八角形",
+                "baat3 gok3 jing4",
+                "",
+                "&nbsp;das Achteck",
+                "",
+                ""
+            ],
+            "guid": "CQep5mEG+3",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "橢圓形",
+                "to5 jyun4 jing4&nbsp;",
+                "",
+                "- das Oval",
+                "",
+                ""
+            ],
+            "guid": "D&hTtV1:sc",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "五角形",
+                "ng5 gok3 jing4",
+                "",
+                "&nbsp;- das Fünfeck",
+                "",
+                ""
+            ],
+            "guid": "Mx)uZL$YTX",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "棱錐",
+                "ling4 zeoi1",
+                "",
+                "&nbsp;- die Pyramide",
+                "",
+                ""
+            ],
+            "guid": "fY=Y<M]|*T",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "長方形",
+                "ceong4 fong1 jing4",
+                "",
+                "das Rechteck",
+                "",
+                ""
+            ],
+            "guid": "uSDF^q{?|8",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "六邊形",
+                "luk6 bin1 jing4",
+                "",
+                "&nbsp;Sechseck",
+                "",
+                ""
+            ],
+            "guid": "G`sw$iE|+n",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "環狀",
+                "waan4 zong6&nbsp;",
+                "",
+                "der Ring",
+                "",
+                ""
+            ],
+            "guid": "I%BRFymuUw",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "球體",
+                "kau4 tai2&nbsp;",
+                "",
+                "- die Kugel",
+                "",
+                ""
+            ],
+            "guid": "C9?By<^!<f",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "正方形",
+                "zing3 fong1 jing4",
+                "",
+                "square",
+                "",
+                ""
+            ],
+            "guid": "y{O}#bOVl?",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "三角形",
+                "saam1 gok3 jing4",
+                "",
+                "&nbsp;das Dreieck",
+                "",
+                ""
+            ],
+            "guid": "t<A;(9{XY%",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "派對",
+                "paai3 deoi3",
+                "",
+                "&nbsp;- party",
+                "",
+                ""
+            ],
+            "guid": "pzRyg;.sUg",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "煙花",
+                "jin1 faa1",
+                "",
+                "&nbsp;- das Feuerwerk",
+                "",
+                ""
+            ],
+            "guid": "v%SA-|ZIB)",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "除夕",
+                "ceoi4 zik6",
+                "",
+                "new years eve",
+                "",
+                "除 - get rid of<br>夕 - sunset, evening, night"
+            ],
+            "guid": "b=-U:lA18!",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "情人節",
+                "cing4 jan4 zit3<br>",
+                "",
+                "Valentinstag",
+                "",
+                "cing4 - emotion<br>zit3 - festival"
+            ],
+            "guid": "NI>!5Zs!7{",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "三更半夜",
+                "saam1 gang1 bun3 je6/6*2&nbsp;",
+                "",
+                "around mid night",
+                "",
+                ""
+            ],
+            "guid": "I;QefR+V2;",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "食",
+                "sik6",
+                "",
+                "to eat<br>food",
+                "我食緊麵。(I am eating noodles) (Spoken)<br>你想食飯定係飾面？（Do you want to eat rice or noodles?)",
+                ""
+            ],
+            "guid": "g83KR|c`mO",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "煮",
+                "zyu2&nbsp;",
+                "zhu3",
+                "to cook",
+                "我煮魚。(I cook fish)",
+                ""
+            ],
+            "guid": "r1o^?GJW=D",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "檸檬 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">柠檬</span>",
+                "ning4 mung1",
+                "",
+                "lemon",
+                "",
+                ""
+            ],
+            "guid": "kLjS:wqLs4",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "新年",
+                "san1 nin4",
+                "",
+                "&nbsp;das neue Jahr",
+                "",
+                ""
+            ],
+            "guid": "D,crq7Fg$`",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "倒數 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">倒数</span>",
+                "dou2 sou3",
+                "",
+                "der Countdown",
+                "",
+                "倒: fall over, pour out, turn upside down<br>數: number, figure, several, count"
+            ],
+            "guid": "mS)pY.0_G~",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "新年快樂 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">新年快乐</span>",
+                "san1 nin4 faai3 lok6",
+                "",
+                "Happy new year!",
+                "",
+                ""
+            ],
+            "guid": "ySaJ1L05yK",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "決心 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">决心</span>",
+                "kyut3 sam1",
+                "jue2 xin1",
+                "&nbsp;to determine, to resolve, determination",
+                "",
+                "決: decide<br>心: heart"
+            ],
+            "guid": "M@[y}V(8jA",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "回顧 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">回顾</span>",
+                "wui4 gu3",
+                "",
+                "&nbsp;- to review, to look back",
+                "",
+                ""
+            ],
+            "guid": "xS9]LEC$R+",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "回憶 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">回忆</span>",
+                "wui4 jik1&nbsp;",
+                "",
+                "v: to recall, recollect, remember<br>n: recollection, memory, memories",
+                "",
+                ""
+            ],
+            "guid": "vkjf~2&vsP",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "農曆新年 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">农历新年</span>",
+                "nung4 lik6 san1 nin4",
+                "",
+                "Chinese lunar new years day",
+                "",
+                ""
+            ],
+            "guid": "c{GNMsn4~>",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "你",
+                "nei5",
+                "",
+                "&nbsp;- You",
+                "",
+                ""
+            ],
+            "guid": "kWn-5_*2V=",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "佢",
+                "Keoi5",
+                "",
+                "&nbsp;He, Him, She, Her, It (written)",
+                "",
+                ""
+            ],
+            "guid": "C>Q_rtR-|0",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "嗰個 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">𠮶个</span>",
+                "go2 go3",
+                "",
+                "&nbsp;that one",
+                "",
+                ""
+            ],
+            "guid": "HF3K`Ru,!w",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">需要</span>",
+                "seoi6 jiu3",
+                "",
+                "need, require<br>also n: needs, wants",
+                "",
+                ""
+            ],
+            "guid": "wz3z*b1c/u",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "愛",
+                "oi3",
+                "",
+                "love (v&amp;n)",
+                "",
+                ""
+            ],
+            "guid": "h%4I2;==#<",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">教練 / 教练</span>",
+                "gaau3 lin6",
+                "jiao4 lian4",
+                "&nbsp;to/a coach, to train, an instructor",
+                "",
+                "教: teach<br>練: practise, skilled"
+            ],
+            "guid": "C/fTulz=S:",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">班</span>",
+                "baan1&nbsp;<br>",
+                "",
+                "n, classifier: class, team, group, squad, grade<br><br>2: shift, duty, work<br>n, classifier: scheduled runs/flights<br>4: withdraw (troops), manoevre",
+                "",
+                ""
+            ],
+            "guid": "u4oNwQVw*1",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "教練班",
+                "gaau3 lin6 baan1",
+                "",
+                "&nbsp;- instructor class",
+                "",
+                ""
+            ],
+            "guid": "NF(u$DmbV7",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>武術 / 武术&nbsp;</div>\n</div>\n</div></div>",
+                "mou3 soet6",
+                "(wu3)&nbsp;&nbsp;(shu4)",
+                "&nbsp;- Kriegskunst",
+                "",
+                ""
+            ],
+            "guid": "NzN,6S>B#m",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>術 / 术&nbsp;</div>\n</div>\n</div></div>",
+                "soet6",
+                "shu4",
+                "&nbsp;art, skill, technique",
+                "",
+                ""
+            ],
+            "guid": "n>~|=M95ot",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>\n<div>\n<div>\n<div>武&nbsp;</div>\n</div>\n</div></div>",
+                "mou5&nbsp;",
+                "wu3",
+                "force, military, warlike",
+                "",
+                ""
+            ],
+            "guid": "Ckv/a2NEZA",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">香港</span>",
+                "hoeng1 gong2",
+                "",
+                "HongKong",
+                "",
+                ""
+            ],
+            "guid": "uZ$J%05#!)",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">美國</span>",
+                "mei5 gwok3&nbsp;",
+                "",
+                "American",
+                "",
+                ""
+            ],
+            "guid": "cMI+8<q`>s",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">英國</span>",
+                "jing1 gwok3",
+                "",
+                "British",
+                "",
+                ""
+            ],
+            "guid": "J@+$;?7Rrb",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">隻 /&nbsp;</span><span style=\"background-color: rgb(255, 255, 253);\">只</span>",
+                "zek3",
+                "",
+                "classifier animal",
+                "",
+                ""
+            ],
+            "guid": "A#&%Vl;Q=|",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">狗</span>",
+                "gau2",
+                "gou3",
+                "&nbsp;Dog",
+                "懶狗。(lazy dog)<br>狗很懶。(The dog is lazy)",
+                "Alternative: 犬 hyun2"
+            ],
+            "guid": "dsmN%!#IDz",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">高</span>",
+                "gou1",
+                "gao1",
+                "high, tall",
+                "",
+                ""
+            ],
+            "guid": "AGHUm4pZ.{",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "聰明<span style=\"background-color: rgb(255, 255, 253);\">&nbsp;/ 聪明</span>",
+                "cong1 ming4",
+                "cong1 ming2",
+                "&nbsp;smart",
+                "",
+                "聰: intelligent<br>明: bright"
+            ],
+            "guid": "p7}D.xZJiM",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">懶&nbsp;</span><span style=\"background-color: rgb(255, 255, 253);\">/ 懒</span>",
+                "laan5",
+                "lan3",
+                "lazy",
+                "我好懶。(I am lazy)<br>佢哋都很懶。(All of them are lazy)<br>我們不很懶。(We are not lazy)<br>我們都不很懶。(None of us is lazy)<br>懶（嘅）狗。(Lazy dog) [unverified]",
+                ""
+            ],
+            "guid": "o2VIbBdmj|",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">床</span>",
+                "cong4",
+                "chuang4",
+                "&nbsp;bed",
+                "",
+                ""
+            ],
+            "guid": "qiAlL24L]>",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">上面</span>",
+                "soeng6 min6",
+                "",
+                "&nbsp;on top of",
+                "",
+                ""
+            ],
+            "guid": "Gxmk-5]guE",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">喺</span>",
+                "hai2",
+                "",
+                "to be (somwhere)",
+                "",
+                ""
+            ],
+            "guid": "BP#f1w!_g+",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">舖</span>",
+                "pou3",
+                "",
+                "&nbsp;shop",
+                "",
+                ""
+            ],
+            "guid": "oR]r9.u5`y",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "基本",
+                "gei1 bun2",
+                "",
+                "&nbsp;fundamental, basics",
+                "",
+                ""
+            ],
+            "guid": "E)S-WN4>f",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "地",
+                "dei6",
+                "",
+                "Classifier for multiple<br><br>Eg: 我地， 泥地",
+                "",
+                "Spoken Cantonese only"
+            ],
+            "guid": "uhO4w.odOE",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "們 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">们</span>",
+                "mun4",
+                "men / men2",
+                "<span style=\"background-color: rgb(255, 255, 253);\">an adjunct to a pronoun or noun to indicate plurality (中華)<br></span><br>",
+                "我們 (we)<br>他們 (they)",
+                "Mandarin and Written Cantonese"
+            ],
+            "guid": "FfxKK2`g_}",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "他，她， 它",
+                "taa1",
+                "ta1",
+                "he",
+                "",
+                "Mandarin and Written Cantonese"
+            ],
+            "guid": "uT)5)6jk:/",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "三心兩意",
+                "saam1 sam1 loeng5 ji3",
+                "",
+                "To be of two minds<br><br>Being indecicve (unentschlossen sein)",
+                "",
+                ""
+            ],
+            "guid": "kwG;Bw_FCl",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "兩",
+                "loeng5",
+                "",
+                "2",
+                "",
+                "&nbsp;(for amounts)"
+            ],
+            "guid": "b`Il)a&?F*",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "是",
+                "si6",
+                "shì",
+                "to be (same as 係)",
+                "",
+                "W | M (Only written Cantonese and Mandarin)"
+            ],
+            "guid": "y~r5jI(Yk",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "也",
+                "jaa5",
+                "ye3",
+                "auch<br><br>Subj + 也 + Verb",
+                "我也唔食肉。(I also no eat meat)<br>你哋去。(They also go/leave)<br>佢也好開心。(He/She/They are also happy)",
+                "開心 -- hoi1 sam1 happy"
+            ],
+            "guid": "G;BdR~}R~l",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "開心",
+                "hoi1 sam1",
+                "kai1 xin1",
+                "happy",
+                "佢也好開心。(He/She/They is also happy)",
+                "開 hoi1 - open<br>心 sam1 - heart"
+            ],
+            "guid": "snoy$SN3/!",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "不",
+                "bat1",
+                "bu4",
+                "no, negation of verbs",
+                "不去 - dont go / dont leave<br>不好開心 - to be not happy",
+                "M W (only written cantonese and Mandarin)"
+            ],
+            "guid": "wpmvcfK!Dq",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "都",
+                "dou1",
+                "dou1",
+                "Expresses all<br>Expresses both<br>Cant only: Expresses also (like 也 in Mandarin)<br><br>Subj + 都 + verb (phrase)",
+                "你哋都想隻狗。(All of them want a dog)<br>我和我太太部唔食肉。(I and my wife both dont eat meat) (spoken)<br>我和我太太部不食肉。 (written)",
+                ""
+            ],
+            "guid": "PIF^lvi1kH",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "和",
+                "wo4",
+                "he2",
+                "listing nouns",
+                "我和隻狗都食。(I and the dog both eat)",
+                ""
+            ],
+            "guid": "pfpvt8h3?^",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "吃",
+                "hek3",
+                "chi1",
+                "to eat",
+                "你哋都吃蘋果. (All of them eat apples)",
+                "蘋 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">苹 ping4 - apple</span>"
+            ],
+            "guid": "D<$go7Qnh2",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "蘋果 / 苹果",
+                "ping4 gwo2",
+                "ping2 guo3",
+                "Apple",
+                "我吃蘋果.<br>我唔食蘋果。(Spoken)<br>我不蘋果。 (Written)",
+                ""
+            ],
+            "guid": "Ld-EW(L?sh",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">這</span>個 / 这个",
+                "ze3 go3",
+                "Zhè4 ge",
+                "this one",
+                "这个马。(This horse)&nbsp;<br>这個馬。(This horse)",
+                "M W (written cant or mandarin)"
+            ],
+            "guid": "e|>8K+B2y$",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "打白鴿轉",
+                "daa2 baak3 gaap3 zyun4",
+                "",
+                "go for a quick walk around the block<br><br>lit: \"circle the pigeons\"",
+                "",
+                ""
+            ],
+            "guid": "oop=hx>n`2",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "白鴿",
+                "baak3 gaap3",
+                "",
+                "pigeon",
+                "呢個白鴿。(this is a pigeon)<br>我不吃白鴿！(I dont eat pigeon[s])",
+                ""
+            ],
+            "guid": "CB>Ti(M7/Q",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "這 / 这",
+                "ze3",
+                "zhi4",
+                "this",
+                "",
+                ""
+            ],
+            "guid": "l,`84J/2q}",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "家",
+                "gaa1",
+                "jia1",
+                "home, family, household",
+                "我家有三隻狗仔。(There are three puppies at/in my home)",
+                ""
+            ],
+            "guid": "HQJ!U|<#z?",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">老</span>",
+                "lou5",
+                "lau3",
+                "old, aged<br>overcooked",
+                "我不很老。(I am not old)<br>你哋都好老。(They are [all of them] old)",
+                ""
+            ],
+            "guid": "fH{M.^.t}K",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "朋友",
+                "pang4 jau5",
+                "peng2 you5",
+                "friend, to be friends",
+                "我和Ron是朋友。(I and Ron are friends)<br>我哋係好朋友。(We are good firends)",
+                ""
+            ],
+            "guid": "v0UDtR/U^;",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">周 /&nbsp;</span><span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">週</span>",
+                "zau1",
+                "zhou1",
+                "week",
+                "週一， 週二， 。。。， 周天 / 週日",
+                "Alternative to 星期 (sing1 kei4)"
+            ],
+            "guid": "6)ze|+##D",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">粵語</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "jyut6 yju5",
+                "yue4 yu3",
+                "Cantonese langauge",
+                "",
+                ""
+            ],
+            "guid": "P{4$KP?yez",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">說 /&nbsp;</span><span style=\"background-color: rgb(255, 255, 253);\">说</span>",
+                "syut3",
+                "shou1",
+                "to speak, talk, say (中華)",
+                "我會說粵語。(I can speak cantonese)",
+                "Mostly Mandarin"
+            ],
+            "guid": "PjwQVb,C,B",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "矮",
+                "ai2",
+                "ai3",
+                "short (height)",
+                "嗰個車很矮。(That car is short)",
+                ""
+            ],
+            "guid": "hw~&Kz/9iF",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "輕<span style=\"background-color: rgb(255, 255, 253);\">&nbsp;/ 轻</span>",
+                "hing1 (heng1)",
+                "qing1",
+                "light",
+                "",
+                ""
+            ],
+            "guid": "q]ygCbe^u:",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "短",
+                "dyun2",
+                "duan3",
+                "short (length)",
+                "&nbsp;嗰個車好短。(Spoken: That car is short [in length])",
+                ""
+            ],
+            "guid": "nfl~k/^!j#",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "肥",
+                "fei4",
+                "fei2",
+                "fat",
+                "",
+                "Also: rich, fertile, oily, profitable"
+            ],
+            "guid": "oLQxDbS$WA",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "慢",
+                "maan6",
+                "man4",
+                "slow",
+                "",
+                ""
+            ],
+            "guid": "l8W>{0w#4h",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "漂亮",
+                "piu1 loeng6",
+                "piao4 liang5",
+                "beautiful, pretty",
+                "",
+                "<span style=\"background-color: rgb(255, 255, 253);\">靚 / 靓 (leng3, liang4) more commonly spoken</span>"
+            ],
+            "guid": "H2.Ep#7/;M",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "靚 / 靓&nbsp;&nbsp;",
+                "leng3",
+                "liang4",
+                "beautiful",
+                "",
+                ""
+            ],
+            "guid": "Jm-p*CH.5-",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "美",
+                "mei5",
+                "mei3",
+                "beautiful",
+                "",
+                "美國 = America<br>美金 = US Dollar"
+            ],
+            "guid": "hFv&)63_*<",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "重",
+                "cung5",
+                "zhong4",
+                "heavy",
+                "",
+                ""
+            ],
+            "guid": "x#/G=#rt_L",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "長&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">/ 长</span>",
+                "coeng4",
+                "chang2",
+                "long",
+                "",
+                ""
+            ],
+            "guid": "N<9?~Ne_5)",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "瘦",
+                "sau3",
+                "shou4",
+                "thin",
+                "",
+                ""
+            ],
+            "guid": "c6,=qS3U:H",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "快",
+                "faai3",
+                "kuai4",
+                "fast, hasty",
+                "",
+                ""
+            ],
+            "guid": "O1ls?iNTqT",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">來 / 来</span>",
+                "loi4",
+                "lai2",
+                "come",
+                "",
+                "Antonym of 去 (hoei3)"
+            ],
+            "guid": "vs=i)!mx}g",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "哭",
+                "huk1",
+                "ku1",
+                "to cry",
+                "",
+                ""
+            ],
+            "guid": "cW(VAe5>6d",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "喝",
+                "hot3",
+                "he1",
+                "to drink",
+                "",
+                ""
+            ],
+            "guid": "hXpugfKp}8",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "出",
+                "coet1",
+                "chu1",
+                "to go out",
+                "",
+                "出貓 = to cheat<br>出貓仔 = cheater"
+            ],
+            "guid": "uZS=x9+]`:",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">跳</span>",
+                "tiu3",
+                "tiao4",
+                "to jump",
+                "",
+                ""
+            ],
+            "guid": "Fm;ZjEuI]R",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "看",
+                "&nbsp;hon3",
+                "kan4",
+                "to see, to read (中華)",
+                "",
+                ""
+            ],
+            "guid": "vAPg&c00s<",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "跑",
+                "paau2",
+                "pao3",
+                "to run",
+                "我跑緊。(I am running)",
+                ""
+            ],
+            "guid": "umC(OU26FO",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "立",
+                "laap6 / lap6",
+                "li4",
+                "to stand",
+                "",
+                ""
+            ],
+            "guid": "mz9~K98nAm",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "走",
+                "zau2",
+                "zou3",
+                "walk",
+                "",
+                "In Cant also: to run<br><br>走 does not take a destination, whereas 去 can."
+            ],
+            "guid": "uj<w2qK}]y",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "飲",
+                "jam2",
+                "yin3",
+                "to drink",
+                "",
+                "also to recieve a (bullet, arrow, ... )"
+            ],
+            "guid": "BXs;im`GwS",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "去",
+                "hoei3",
+                "qu4",
+                "to go away, to leave, to go",
+                "",
+                ""
+            ],
+            "guid": "Hv]@yPScfN",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">學 / 学</span>",
+                "hok3",
+                "xue2",
+                "to learn",
+                "",
+                ""
+            ],
+            "guid": "EH,IY5kKpp",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "睇&nbsp;",
+                "tai2",
+                "di4",
+                "to see, look, view, read",
+                "",
+                "Mostly cantonese"
+            ],
+            "guid": "m+^1_T5EEF",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "坐",
+                "co5",
+                "zuo4",
+                "to sit",
+                "",
+                ""
+            ],
+            "guid": "c78+~huwg2",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "要",
+                "jiu3",
+                "yao4",
+                "to want",
+                "",
+                "similar to 想, although it can also mean to need"
+            ],
+            "guid": "hLVE[@Q[Sh",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "行",
+                "hang4 / haang4",
+                "xing2",
+                "to walk, to go",
+                "",
+                ""
+            ],
+            "guid": "fd:^]n$7wb",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 255);\">新</span>",
+                "san1",
+                "xin1",
+                "new, novel",
+                "新年 (new year)",
+                ""
+            ],
+            "guid": "y]-3qf8GZM",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        }
+    ]
+}

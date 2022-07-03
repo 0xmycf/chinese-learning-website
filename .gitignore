@@ -1,3 +1,4 @@
+#
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
@@ -515,3 +516,4 @@ public
 md_to_json/env/
 md_to_json/tests/
 md_to_json/md_to_js/__pycache__/
+backup/
