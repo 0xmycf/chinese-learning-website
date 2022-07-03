@@ -9,5 +9,14 @@ Since I was very little I wanted to learn Chinese.
 
 This Website is built with *plenti*.
   A static site generator for Svelte.
-  I built a markdown -> json formatter on top of it,
+  I built a yml -> json formatter on top of it,
     so I dont have to write my notes in json.
+
+Additionally a dictionary exists, which can be updated through
+    python scripts if a valid anki deck as json is available.
+
+## Python
+
+The repo also contains a python subdir,
+    wich holds various python scripts for converting files into other files
+    ie. building the actual content of the website.
