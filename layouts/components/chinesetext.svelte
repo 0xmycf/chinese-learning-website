@@ -1,8 +1,8 @@
 <script>
-    export let key, dict, mandarin, cantonese;
-    const word = dict[key];
-    
-    const text = (cantonese || typeof word.simplified === 'undefined') ? key : word.simplified;
+    export let key, dict, isMandarin, isCantonese, custom;
+    const word = (typeof custom === 'undefined') ? dict[key] : custom;
+
+    const text = (isCantonese || typeof word.simplified === 'undefined') ? key : word.simplified;
     const translation = word.translation;
     let content = text;
 
@@ -12,13 +12,13 @@
 </script>
 
 <div class="chinese-div">
-  <p class="chinese-text" on:mouseenter={onHover} on:mouseleave={onHover}> 
+  <p class="chinese-text" on:mouseenter={onHover} on:mouseleave={onHover}>
     { content }
   </p>
   <p class="roman-text">
-    {#if mandarin}
+    {#if isMandarin}
       { word.pinyin }
-    {:else if cantonese}
+    {:else if isCantonese}
       { word.jyutping }
     {:else}
       None given.

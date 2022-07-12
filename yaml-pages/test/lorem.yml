@@ -9,6 +9,12 @@ BodyMand:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Cras est arcu, congue at commodo vel, mollis a est.
   - text: 你好
+  - text: 你好
+    jyutping: Jutpting
+    translation: Hello there
+    pinyin: Pinyin
+    simplified: simplified
+    traditional: traditional
   - text: >
       Nam a lacus quis mauris lobortis aliquet sed et nibh.
       Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.

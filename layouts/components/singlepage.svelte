@@ -13,36 +13,47 @@
     const dict = getDictionary(allContent);
     const isChinese = (text) => /[\u4E00-\u9FA5]/.test(text);
 
-    let cantonese, mandarin; 
+    let isCantonese, isMandarin;
       switch(language){
           case 'mandarin':
-            mandarin = true;
+            isMandarin = true;
             break;
           case 'cantonese':
-            cantonese = true;
+            isCantonese = true;
             break;
           default:
-            mandarin  = false;
-            cantonese = false;
+            isMandarin  = false;
+            isCantonese = false;
             break;
         }
-    /*
-      TODO:
-        - scrollbars
-        - individual scrolling of the singlepages (this might be the task of the doublepage)
-    */
 </script>
 
 <div>
 
   <h1>{Header}</h1>
 
-  {#each Body as {text}}
+  {#each Body as {text, jyutping, pinyin, translation, traditional, simplified} }
     {#if isChinese(text)}
-      <Chinesetext key={text} {dict} {mandarin} {cantonese} />
+      <!--
+        Sometimes the text contains sentences which need to be translated,
+        such sentences wont be in the dictionary, hence
+        a custom entry is used in the yaml/json directly
+      -->
+      {#if typeof jyutping !== 'undefined'}
+        <Chinesetext key={text} {dict} {isMandarin} {isCantonese} custom={
+                       {
+                         traditional: traditional,
+                         simplified: simplified,
+                         translation: translation,
+                         pinyin: pinyin,
+                         jyutping: jyutping,
+                       }
+                     } />
+      {:else}
+        <Chinesetext key={text} {dict} {isMandarin} {isCantonese} />
+      {/if}
     {:else}
       <p>{@html text}</p>
     {/if}
   {/each}
-
 </div>
