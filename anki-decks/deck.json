@@ -470,7 +470,7 @@
                 "女仔",
                 "neoi5 zai2&nbsp;",
                 "",
-                "- girl (child)",
+                "girl (child)",
                 "",
                 ""
             ],
@@ -498,7 +498,7 @@
                 "我",
                 "ngo5",
                 "",
-                "&nbsp;- Ich",
+                "Ich",
                 "",
                 ""
             ],
@@ -680,7 +680,7 @@
                 "千",
                 "cin1",
                 "",
-                "&nbsp;- eintausend",
+                "eintausend",
                 "",
                 ""
             ],
@@ -988,7 +988,7 @@
                 "圈",
                 "hyun1",
                 "",
-                "&nbsp;- der Kreis",
+                "der Kreis",
                 "",
                 ""
             ],
@@ -1184,7 +1184,7 @@
                 "派對",
                 "paai3 deoi3",
                 "",
-                "&nbsp;- party",
+                "party",
                 "",
                 ""
             ],
@@ -1198,7 +1198,7 @@
                 "煙花",
                 "jin1 faa1",
                 "",
-                "&nbsp;- das Feuerwerk",
+                "das Feuerwerk",
                 "",
                 ""
             ],
@@ -1352,7 +1352,7 @@
                 "回顧 /&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">回顾</span>",
                 "wui4 gu3",
                 "",
-                "&nbsp;- to review, to look back",
+                "to review, to look back",
                 "",
                 ""
             ],
@@ -1408,7 +1408,7 @@
                 "佢",
                 "Keoi5",
                 "",
-                "&nbsp;He, Him, She, Her, It (written)",
+                "&nbsp;He, Him, She, Her, It (spoken)",
                 "",
                 ""
             ],
@@ -1492,7 +1492,7 @@
                 "教練班",
                 "gaau3 lin6 baan1",
                 "",
-                "&nbsp;- instructor class",
+                "instructor class",
                 "",
                 ""
             ],
@@ -1505,8 +1505,8 @@
             "fields": [
                 "<div>\n<div>\n<div>\n<div>武術 / 武术&nbsp;</div>\n</div>\n</div></div>",
                 "mou3 soet6",
-                "(wu3)&nbsp;&nbsp;(shu4)",
-                "&nbsp;- Kriegskunst",
+                "wu3 shu4",
+                "Kriegskunst",
                 "",
                 ""
             ],
@@ -1786,7 +1786,7 @@
                 "兩",
                 "loeng5",
                 "",
-                "2",
+                "2 (not 二)",
                 "",
                 "&nbsp;(for amounts)"
             ],
@@ -1909,7 +1909,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "<span style=\"background-color: rgb(255, 255, 253);\">這</span>個 / 这个",
+                "<span style=\"background-color: rgb(255, 255, 253);\">&nbsp;這</span>個 / 这个 (中華)",
                 "ze3 go3",
                 "Zhè4 ge",
                 "this one",
@@ -1951,7 +1951,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "這 / 这",
+                "這 / 这 (華中)",
                 "ze3",
                 "zhi4",
                 "this",
@@ -2022,7 +2022,7 @@
             "__type__": "Note",
             "fields": [
                 "<span style=\"color: rgb(9, 0, 18);\">粵語</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
-                "jyut6 yju5",
+                "jyut6 jyu5",
                 "yue4 yu3",
                 "Cantonese langauge",
                 "",
@@ -2248,7 +2248,7 @@
                 "喝",
                 "hot3",
                 "he1",
-                "to drink",
+                "to drink (mand)",
                 "",
                 ""
             ],
@@ -2449,6 +2449,650 @@
                 ""
             ],
             "guid": "y]-3qf8GZM",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">仲有</span>",
+                "zung6 jau5",
+                "zhong4 you3",
+                "still have",
+                "你中有機會 (You still have a chance)<br>",
+                "<span style=\"color: rgb(9, 0, 18);\">機會</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp; - chance/opportuinity</span>"
+            ],
+            "guid": "r0-cd$+H4i",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">機會 / 机会</span>",
+                "gei1 wui6",
+                "ji1 hui4",
+                "opportunity, chance, prosper",
+                "我仲有機會 (You still have a chance)",
+                "仲有 - still have"
+            ],
+            "guid": "peJiopp4ho",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "仔",
+                "zai2",
+                "zai3",
+                "son, child, kid",
+                "",
+                "also suffix for: small animal<br><br>Kid: Only Cantonese, Mandarin uses&nbsp;<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">崽 (zoi2, zai3)</span>"
+            ],
+            "guid": "i@DSLUQoy)",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">崽</span>",
+                "zoi2",
+                "zai3",
+                "child, small animal",
+                "",
+                "Mandarin, Cantonese uses 仔"
+            ],
+            "guid": "Ek4XN.7b`g",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">屋</span>",
+                "uk1",
+                "wu1",
+                "house, room, building",
+                "佢有幾間屋 (She has several houses)",
+                "屋企 means home"
+            ],
+            "guid": "Kq@0w,0kVs",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">幾 / 几</span>",
+                "gei2",
+                "ji3",
+                "how many, how much, what;<br>a few, several<br>粵: quite, considerably",
+                "",
+                ""
+            ],
+            "guid": "ruLzqx6gko",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "冇",
+                "mou5",
+                "Only Cantonese",
+                "Negative form of 有 (spoken)",
+                "",
+                "Written and Mandarin use&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">沒有 / 没有 (mut6 jau5)</span>"
+            ],
+            "guid": "Pxn+^A^!zj",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">沒有 / 没有</span>",
+                "mut6 jau5",
+                "mei2 you3",
+                "Do not have",
+                "",
+                ""
+            ],
+            "guid": "Mj[n#&f&#d",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">經驗 / 经验</span>",
+                "gign1 jim6",
+                "jing1 yan4",
+                "experience",
+                "有經驗 - experienced<br><span style=\"background-color: rgb(255, 255, 255);\">沒經驗 - inexperienced (also 冇經驗）<br></span>",
+                ""
+            ],
+            "guid": "w*fzF]6+8u",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">細路</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "sai3 lou6",
+                "Only Cantonese",
+                "Child, Children, Kits",
+                "我哋冇細路仔 (We dont have any children)",
+                "Cantonese only"
+            ],
+            "guid": "C;|e)&JV24",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">問題 / 问题</span>",
+                "man6 tai4",
+                "wen4 ti2",
+                "question, problem",
+                "你有冇問題呀？(Do you have any qustion?)",
+                ""
+            ],
+            "guid": "iguG-xcGVK",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">時間 / 时间</span>",
+                "si4 gaan3<br>",
+                "shi2 jian1",
+                "a point in time, eg. Greenwhich time, arrival time, closing time",
+                "我哋有冇時間呀？(Do we have time?)",
+                ""
+            ],
+            "guid": "t$[-.EOQEV",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">熊貓 / 熊猫</span>",
+                "hung4 maau1",
+                "xiong2 mao1",
+                "panda<br>slang: sleep deprived person",
+                "",
+                ""
+            ],
+            "guid": "AeYF}fX`j!",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">熊</span>",
+                "hung4",
+                "xiong2",
+                "bear",
+                "",
+                ""
+            ],
+            "guid": "CF-#GA?Z41",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">枱 / 台</span>",
+                "toi4*2",
+                "tai2",
+                "table, desk, platform shaped furniture",
+                "",
+                ""
+            ],
+            "guid": "B:0Nwsn:q_",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">碟</span>",
+                "dip6 / dip2",
+                "die2",
+                "dish, plate<br><br>disc, disk, CD",
+                "",
+                ""
+            ],
+            "guid": "Mgyt,}lbo&",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">先生</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "sin1 saang1",
+                "xian1 sheng5",
+                "粵: teacher<br>mr, mister, husband",
+                "",
+                "<span style=\"color: rgb(9, 0, 18);\">先 - first, before, temporarily<br>生</span>&nbsp;- born, grow, life, alive"
+            ],
+            "guid": "$6a2Az2Nj",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">死</span>",
+                "sei2",
+                "si3",
+                "die, death, dead",
+                "",
+                ""
+            ],
+            "guid": "EOxjUw8>@z",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">錢 / 钱</span>",
+                "cin4*2",
+                "qian2",
+                "cash, coins, money",
+                "",
+                ""
+            ],
+            "guid": "C^YIAE(E}}",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "有錢",
+                "jau5 cin4*2",
+                "",
+                "rich",
+                "",
+                ""
+            ],
+            "guid": "k{d1Cxy]}I",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">咁</span>",
+                "gam3",
+                "Not used in Mandarin",
+                "adv: so, to such a great degree,&nbsp;",
+                "咁多 - so much<br>啲咁多 - a little bit<br>的咁多 - a tiny bit<br>咁鬼 - so very",
+                ""
+            ],
+            "guid": "Q_~}!B_Ty1",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">老公</span>",
+                "lou5 gung1",
+                "lao3 gong5",
+                "hsuband",
+                "",
+                "Only used in Cantonese<br><br><span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">老 - old<br>公 - public, common, international. impartial</span>"
+            ],
+            "guid": "e;g>fc)A-f",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">頭 / 头</span>",
+                "tau4",
+                "tou2 tou5",
+                "head, heair, hairstyle",
+                "",
+                ""
+            ],
+            "guid": "C=r;Fzno0C",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">梳</span>",
+                "so1",
+                "shu1",
+                "(a,to) comb",
+                "我梳頭 ( I comb my hair )",
+                ""
+            ],
+            "guid": "w}gt5K6DDF",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">鬧鐘 / 闹钟</span>",
+                "naau6 zung1",
+                "nao4 zhong1",
+                "alarm clock",
+                "",
+                "<span style=\"background-color: rgb(255, 255, 253);\">鬧 - noisy<br>鐘 - clock</span>"
+            ],
+            "guid": "QLpqCi&R^G",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">設定</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "cit3 ding6",
+                "she4 ding4",
+                "setting, configuration<br>to set, to configure",
+                "",
+                "probably influenced by the English word \"setting2"
+            ],
+            "guid": "Dika9zX|xQ",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">起</span>",
+                "hei2",
+                "qi3",
+                "rise, stand up, get up",
+                "我起床 ( I get up )",
+                ""
+            ],
+            "guid": "B,kN7T{k+I",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">起床</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "hei2 cong4",
+                "qi3 chuang4",
+                "to wake up",
+                "",
+                "Cantonese usually uses 起身 (hei2 san1)"
+            ],
+            "guid": "mgLX.86MiP",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">起身</span>",
+                "hei2 san1",
+                "qi3 shen1",
+                "to wake up, to arise in the morning",
+                "",
+                ""
+            ],
+            "guid": "H/t}q}{qtk",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">瞓</span>",
+                "fan3",
+                "kun4",
+                "粵: to go to bed, sleep, lie down",
+                "",
+                ""
+            ],
+            "guid": "AyjzZ#xE!p",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">睡覺 / 睡觉</span>",
+                "seoi6 gaau3",
+                "shui4 jiao4",
+                "sleep",
+                "",
+                "粵 only"
+            ],
+            "guid": "PE(*3C`qoH",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">瞓覺 / 瞓觉</span>",
+                "fan3 gaau3",
+                "Cantonese only",
+                "sleep",
+                "",
+                "Cantonese only, the other one is wrong!"
+            ],
+            "guid": "gIURFrA8I#",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">上班</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "soeng5 baan1",
+                "shang4 ban1",
+                "to go to work",
+                "",
+                "Mandarin, Cantonese uses 返工"
+            ],
+            "guid": "ACCd8$K$%i",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">返工</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "faan1 gung1",
+                "fan3 gong1",
+                "粵: to go to work<br>國: to redo a job which has been poorly done",
+                "",
+                "related term: 開工 (to start work)"
+            ],
+            "guid": "kWe/4LB.6S",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">開工 / 开工</span>",
+                "hoi1 gung1",
+                "kai1 gong1",
+                "to start work, to start a project",
+                "",
+                ""
+            ],
+            "guid": "Q=87c8tMv$",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">洗面</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "sai2 min6",
+                "only Cantonese",
+                "to wash one's face",
+                "",
+                ""
+            ],
+            "guid": "q4h47]35Yb",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">洗</span>",
+                "sai2",
+                "xi3",
+                "wash, bathe, clean with water<br><br>shuffle",
+                "",
+                ""
+            ],
+            "guid": "sx)q,_;!2(",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">返屋企</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "faan1 uk1 kei5*2",
+                "only Cantonese",
+                "return home, go home",
+                "",
+                "華 uses 回家"
+            ],
+            "guid": "PU+-R[1#E#",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">食晏</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "sik6 aan3",
+                "only Cantonese",
+                "to eat lunch",
+                "",
+                "晏 - late, quiet, peaceful"
+            ],
+            "guid": "b{XT^*3O^~",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">做完</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "zou6 jyun4",
+                "zou4 wan2",
+                "finished, done, complete",
+                "",
+                ""
+            ],
+            "guid": "K}TTGi0v~S",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18);\">倒垃圾</span><span style=\"background-color: rgb(255, 255, 253);\">&nbsp;</span>",
+                "dou2 laap6 saap3",
+                "only Cantonese",
+                "to empty the garbage",
+                "",
+                ""
+            ],
+            "guid": "J0cV,~}07w",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(9, 0, 18); background-color: rgb(255, 255, 253);\">吹</span>",
+                "ceoi1",
+                "chui1",
+                "blow, puff, break up, brag",
+                "",
+                ""
+            ],
+            "guid": "e!|{wr{Xm^",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">沖 / 冲</span>",
+                "cung1",
+                "chong1",
+                "pour water on, make drings, infuse<br>rinse, flush, wash",
+                "",
+                ""
+            ],
+            "guid": "t[LBM)!}X-",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">剃鬚 / 剃须</span>",
+                "tai3 sou1",
+                "only Cantonese",
+                "to shave",
+                "",
+                "剃 - shave<br>鬚 - beared, mustache, whiskers<br><br>華:&nbsp;<span style=\"background-color: rgb(255, 255, 253);\">刮鬍子 / 刮胡子</span>"
+            ],
+            "guid": "q(d5Y+jb#w",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">刮鬍子 / 刮胡子</span>",
+                "gwaat3 wu4 zi2",
+                "gua1 hu2 zi5",
+                "To shave",
+                "",
+                "Only used in Mandarin / Written Chinese"
+            ],
+            "guid": "bx/&2}~uLv",
+            "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"background-color: rgb(255, 255, 253);\">沒 / 没</span>",
+                "mut6",
+                "mei2",
+                "Used for negation of 有",
+                "",
+                ""
+            ],
+            "guid": "d13HeiCbOJ",
             "note_model_uuid": "0f3a0e00-f966-11ec-8799-8b1f24b82815",
             "tags": []
         }

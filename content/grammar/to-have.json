@@ -1,0 +1,192 @@
+{
+    "Header": "To have or not to have",
+    "BodyMand": [
+        {
+            "text": "This lesson deals with the verbs \u6709 and \u6c92\u6709. The first one means 'to have' whereas the latter one means 'to not have'. This is different from other verbs which are negated with \u4e0d.\n"
+        },
+        {
+            "text": "\u6c92\u6709",
+            "jyutping": "mut6 jau5",
+            "translation": "To (not) have",
+            "pinyin": "mei2 you3",
+            "simplified": "\u6c92\u6709",
+            "traditional": "\u6c92\u6709"
+        },
+        {
+            "text": "\u6709 can be used in at least two ways: <ol>\n  <li>Expressing possession</li>\n  <li>Expressing existence</li>\n  <li> For more see: <a href=\"https://resources.allsetlearning.com/chinese/grammar/?\">Chinese Grammar Wiki</a></li>\n</ol>\n"
+        },
+        {
+            "text": "<h2> Expressing possession </h2>"
+        },
+        {
+            "text": "\u6709 can be used as 'to have' in english. Since its a normal verb the basic structure is:<br> Subject + \u6709 + Object\n"
+        },
+        {
+            "text": "Some examples might be:\n"
+        },
+        {
+            "text": "\u6211\u6709\u9322",
+            "jyutping": "ngo5 jau5 cin2",
+            "translation": "I have money",
+            "pinyin": "wo3 you3 qian2",
+            "simplified": "\u6211\u6709\u94b1",
+            "traditional": "\u6211\u6709\u9322"
+        },
+        {
+            "text": "\u4f60\u6709\u623f\u5b50\u5417",
+            "jyutping": "nei5 jau5 fong4 zi2 aa3",
+            "translation": "Do you have a house?",
+            "pinyin": "ni1 you3 fang2 zi ma",
+            "simplified": "\u4f60\u6709\u623f\u5b50\u5417",
+            "traditional": "\u4f60\u6709\u623f\u5b50\u5417"
+        },
+        {
+            "text": "<h2> Expressing existence </h2>"
+        },
+        {
+            "text": "\u6709 can also be used to express existence like the Spanish 'hay'. This is similar to the English 'There is' or 'There are'.\n"
+        },
+        {
+            "text": "The structure is also similar:<br> Place + \u6709 + Object\n"
+        },
+        {
+            "text": "\u6211\u5bb6\u6709\u5f88\u591a\u5c0f\u72d7",
+            "jyutping": "ngo5 gaa1 jau5 han2 do1 siu2 gau2",
+            "translation": "There are a lot of puppies in my home",
+            "pinyin": "wo3 jia1 you3 hen3 duo1 xiao3 gou3",
+            "simplified": "\u6211\u5bb6\u6709\u5f88\u591a\u5c0f\u72d7",
+            "traditional": "\u6211\u5bb6\u6709\u5f88\u591a\u5c0f\u72d7"
+        },
+        {
+            "text": "<h2> Negation of \u6709 </h2>"
+        },
+        {
+            "text": "As previously stated, the negation of \u6709 is not done via \u4e0d, but via \u6c92.\n"
+        },
+        {
+            "text": "\u6c92"
+        },
+        {
+            "text": "The structure remains the same. Some examples:"
+        },
+        {
+            "text": "\u6211\u6c92\u6709\u554f\u984c",
+            "jyutping": "ngo5 mut6 jau5 man6 tai4",
+            "translation": "I dont have any questions",
+            "pinyin": "wo3 mei2 you3 wen4 ti2",
+            "simplified": "\u6211\u6c92\u6709\u95ee\u9898",
+            "traditional": "\u6211\u6ca1\u6709\u554f\u984c"
+        },
+        {
+            "text": "<h2> Questions </h2>"
+        },
+        {
+            "text": "Questions will follow.\n"
+        },
+        {
+            "text": "<p> Sources </p>"
+        },
+        {
+            "text": "<a href='https://resources.allsetlearning.com/chinese/grammar/Negation_of_%22you%22_with_%22mei%22'> Chinese Grammar Wiki </a>"
+        }
+    ],
+    "BodyCanto": [
+        {
+            "text": "This lesson deals with the verbs \u6709 and \u6c92\u6709 (w) \u5187 (s). The first one means 'to have' whereas the latter one means 'to not have'. This is different from other verbs which are negated with \u5514.\n"
+        },
+        {
+            "text": "\u5187",
+            "jyutping": "mou5",
+            "translation": "To not have",
+            "pinyin": "mei2 you3",
+            "simplified": "\u6c92\u6709",
+            "traditional": "\u5187"
+        },
+        {
+            "text": "\u6709 can be used in at least three ways: <ol>\n  <li>Expressing possession</li>\n  <li>Expressing existence</li>\n  <li>As an auxiliary verb WIP</li>\n  <li>To introduce indefinite noun phrases WIP</li>\n</ol>\n"
+        },
+        {
+            "text": "<h2> Expressing possession </h2>"
+        },
+        {
+            "text": "\u6709 can be used as 'to have' in english. Since its a normal verb the basic structure is:<br> Subject + \u6709 + Object\n"
+        },
+        {
+            "text": "Some examples might be:\n"
+        },
+        {
+            "text": "\u6211\u5187\u9322",
+            "jyutping": "ngo5 mou5 cin2",
+            "translation": "I don't have money",
+            "pinyin": "wo3 you3 qian2",
+            "simplified": "\u6211\u5187\u94b1",
+            "traditional": "\u6211\u5187\u9322"
+        },
+        {
+            "text": "\u4f60\u6709\u623f\u5b50\u5417",
+            "jyutping": "nei5 jau5 fong4 zi2 aa3",
+            "translation": "Do you have a house?",
+            "pinyin": "ni1 you3 fang2 zi ma",
+            "simplified": "\u4f60\u6709\u623f\u5b50\u5417",
+            "traditional": "\u4f60\u6709\u623f\u5b50\u5417"
+        },
+        {
+            "text": "<h2> Expressing existence </h2>"
+        },
+        {
+            "text": "\u6709 can also be used to express existence like the Spanish 'hay'. This is similar to the English 'There is' or 'There are'. Similarly \u5187 is used to express 'There is not'.\n"
+        },
+        {
+            "text": "The structure is also similar:<br> Place + \u6709 + Object\n"
+        },
+        {
+            "text": "\u6211\u5bb6\u6709\u597d\u591a\u5c0f\u72d7",
+            "jyutping": "ngo5 gaa1 jau5 hou2 do1 siu2 gau2",
+            "translation": "There are a lot of puppies in my home",
+            "pinyin": "wo3 jia1 you3 hen3 duo1 xiao3 gou3",
+            "simplified": "\u6211\u5bb6\u6709\u5f88\u591a\u5c0f\u72d7",
+            "traditional": "\u6211\u5bb6\u6709\u597d\u591a\u5c0f\u72d7"
+        },
+        {
+            "text": "<h2> Negation of \u6709 </h2>"
+        },
+        {
+            "text": "As previously stated, the negation of \u6709 is not done via \u5514, but via \u5187 in the spoken form and via \u6c92\u6709 in the written form.\n"
+        },
+        {
+            "text": "\u5187"
+        },
+        {
+            "text": "The structure remains the same. Some examples:"
+        },
+        {
+            "text": "\u6211\u6c92\u6709\u554f\u984c",
+            "jyutping": "ngo5 mut6 jau5 man6 tai4",
+            "translation": "I don't have any questions",
+            "pinyin": "wo3 mei2 you3 wen4 ti2",
+            "simplified": "\u6211\u6c92\u6709\u95ee\u9898",
+            "traditional": "\u6211\u6ca1\u6709\u554f\u984c"
+        },
+        {
+            "text": "\u6211\u5187\u554f\u984c",
+            "jyutping": "ngo5 mou5 man6 tai4",
+            "translation": "I don't have any questions",
+            "pinyin": "Not implemented",
+            "simplified": "\u6211\u5187\u554f\u984c",
+            "traditional": "\u6211\u5187\u554f\u984c"
+        },
+        {
+            "text": "<h2> Questions </h2>"
+        },
+        {
+            "text": "Questions are composed by putting \u5187 and \u6709 together:\n"
+        },
+        {
+            "text": "\u4f60\u6709\u5187\u554f\u984c\u5440",
+            "jyutping": "nei5 jau6 mou5 man6 tai4 aa3",
+            "translation": "Do you have any questions",
+            "pinyin": "wo3 mei2 you3 wen4 ti2",
+            "traditional": "\u6211\u6709\u5187\u554f\u984c\u5440"
+        }
+    ]
+}

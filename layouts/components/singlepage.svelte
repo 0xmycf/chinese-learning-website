@@ -11,7 +11,7 @@
     export let Header, Body, language, allContent;
 
     const dict = getDictionary(allContent);
-    const isChinese = (text) => /[\u4E00-\u9FA5]/.test(text);
+    const isChinese = (text) => /^[\u4E00-\u9FA5]*$/.test(text);
 
     let isCantonese, isMandarin;
       switch(language){

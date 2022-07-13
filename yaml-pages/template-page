@@ -1,7 +1,28 @@
-# Header
-
-TITLE
-
-# Body
-
-body text
+# Header is the header for both the mandarin and the cantonese pages
+# BodyMand is the body for the mandarin page
+# BodyCant is the body for the cantonese page
+#
+# Each paragraph or chinese word should be created as its own object in a list
+Header: TITLE
+BodyMand:
+  - text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Cras est arcu, congue at commodo vel, mollis a est.
+  - text: 你好
+  - text: 你好
+    jyutping: Jutpting
+    translation: Hello there
+    pinyin: Pinyin
+    simplified: simplified
+    traditional: traditional
+BodyCanto:
+  - text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Cras est arcu, congue at commodo vel, mollis a est.
+  - text: 你好
+  - text: 你好
+    jyutping: Jutpting
+    translation: Hello there
+    pinyin: Pinyin
+    simplified: simplified
+    traditional: traditional

@@ -12,7 +12,7 @@
 
 <div class="test-div">
   {#each allContent as content}
-    {#if content.type === 'dict' ||  content.type === 'test'}
+    {#if content.type === 'dict' ||  content.type === 'grammar'}
       <a class="blue-on-hover" href={content.path}>To: {content.path}</a>
     {/if}
   {/each}

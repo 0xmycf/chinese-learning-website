@@ -1,9 +1,11 @@
 <script>
     export let key, dict, isMandarin, isCantonese, custom;
+
     const word = (typeof custom === 'undefined') ? dict[key] : custom;
 
     const text = (isCantonese || typeof word.simplified === 'undefined') ? key : word.simplified;
-    const translation = word.translation;
+    const translation = word.translation
+
     let content = text;
 
     const onHover = () => {

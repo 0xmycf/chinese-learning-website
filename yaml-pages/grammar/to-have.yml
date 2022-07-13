@@ -1,0 +1,179 @@
+# Header is the header for both the mandarin and the cantonese pages
+# BodyMand is the body for the mandarin page
+# BodyCant is the body for the cantonese page
+#
+# Each paragraph or chinese word should be created as its own object in a list
+Header: To have or not to have
+BodyMand:
+  - text: >
+      This lesson deals with the verbs 有 and 沒有.
+      The first one means 'to have' whereas the latter one means 'to not have'.
+      This is different from other verbs which are negated with 不.
+  - text: 沒有
+    jyutping: mut6 jau5
+    translation: To (not) have
+    pinyin: mei2 you3
+    simplified: 沒有
+    traditional: 沒有
+  - text: >
+      有 can be used in at least two ways:
+      <ol>
+        <li>Expressing possession</li>
+        <li>Expressing existence</li>
+        <li> For more see: <a href="https://resources.allsetlearning.com/chinese/grammar/?">Chinese Grammar Wiki</a></li>
+      </ol>
+  - text: <h2> Expressing possession </h2>
+  - text: > 
+      有 can be used as 'to have' in english.
+      Since its a normal verb the basic structure is:<br>
+      Subject + 有 + Object
+  - text: >
+      Some examples might be:
+
+  - text: 我有錢
+    jyutping: ngo5 jau5 cin2
+    translation: I have money
+    pinyin: wo3 you3 qian2
+    simplified: 我有钱
+    traditional: 我有錢
+
+  - text: 你有房子吗
+    jyutping: nei5 jau5 fong4 zi2 aa3
+    translation: Do you have a house?
+    pinyin: ni1 you3 fang2 zi ma
+    simplified: 你有房子吗
+    traditional: 你有房子吗
+
+
+  - text: <h2> Expressing existence </h2>
+  - text: >
+      有 can also be used to express existence like the Spanish 'hay'.
+      This is similar to the English 'There is' or 'There are'.
+
+  - text: > 
+      The structure is also similar:<br>
+      Place + 有 + Object
+
+  - text: 我家有很多小狗
+    jyutping: ngo5 gaa1 jau5 han2 do1 siu2 gau2
+    translation: There are a lot of puppies in my home
+    pinyin: wo3 jia1 you3 hen3 duo1 xiao3 gou3
+    simplified: 我家有很多小狗
+    traditional: 我家有很多小狗
+
+  - text: <h2> Negation of 有 </h2>
+  - text: >
+      As previously stated, the negation of 有 is not done via 不,
+      but via 沒.
+  # this should be inferred
+  - text: 沒
+  - text: "The structure remains the same. Some examples:"
+
+  - text: 我沒有問題
+    jyutping: ngo5 mut6 jau5 man6 tai4
+    translation: I dont have any questions
+    pinyin: wo3 mei2 you3 wen4 ti2
+    simplified: 我沒有问题
+    traditional: 我没有問題
+
+  - text: <h2> Questions </h2>
+  - text: >
+      Questions will follow.
+    
+  - text: <p> Sources </p> 
+  - text: "<a href='https://resources.allsetlearning.com/chinese/grammar/Negation_of_%22you%22_with_%22mei%22'> Chinese Grammar Wiki </a>"
+
+BodyCanto:
+  - text: >
+      This lesson deals with the verbs 有 and 沒有 (w) 冇 (s).
+      The first one means 'to have' whereas the latter one means 'to not have'.
+      This is different from other verbs which are negated with 唔.
+
+  - text: 冇
+    jyutping: mou5
+    translation: To not have
+    pinyin: mei2 you3
+    simplified: 沒有
+    traditional: 冇
+
+  - text: >
+      有 can be used in at least three ways:
+      <ol>
+        <li>Expressing possession</li>
+        <li>Expressing existence</li>
+        <li>As an auxiliary verb WIP</li>
+        <li>To introduce indefinite noun phrases WIP</li>
+      </ol>
+
+  - text: <h2> Expressing possession </h2>
+
+  - text: > 
+      有 can be used as 'to have' in english.
+      Since its a normal verb the basic structure is:<br>
+      Subject + 有 + Object
+  - text: >
+      Some examples might be:
+
+  - text: 我冇錢
+    jyutping: ngo5 mou5 cin2
+    translation: I don't have money
+    pinyin: wo3 you3 qian2
+    simplified: 我冇钱
+    traditional: 我冇錢
+
+  - text: 你有房子吗
+    jyutping: nei5 jau5 fong4 zi2 aa3
+    translation: Do you have a house?
+    pinyin: ni1 you3 fang2 zi ma
+    simplified: 你有房子吗
+    traditional: 你有房子吗
+
+
+  - text: <h2> Expressing existence </h2>
+  - text: >
+      有 can also be used to express existence like the Spanish 'hay'.
+      This is similar to the English 'There is' or 'There are'.
+      Similarly 冇 is used to express 'There is not'.
+
+  - text: > 
+      The structure is also similar:<br>
+      Place + 有 + Object
+
+  - text: 我家有好多小狗
+    jyutping: ngo5 gaa1 jau5 hou2 do1 siu2 gau2
+    translation: There are a lot of puppies in my home
+    pinyin: wo3 jia1 you3 hen3 duo1 xiao3 gou3
+    simplified: 我家有很多小狗
+    traditional: 我家有好多小狗
+
+  - text: <h2> Negation of 有 </h2>
+  - text: >
+      As previously stated, the negation of 有 is not done via 唔,
+      but via 冇 in the spoken form and via 沒有 in the written form.
+  # this should be inferred
+  - text: 冇
+  - text: "The structure remains the same. Some examples:"
+
+  - text: 我沒有問題
+    jyutping: ngo5 mut6 jau5 man6 tai4
+    translation: I don't have any questions
+    pinyin: wo3 mei2 you3 wen4 ti2
+    simplified: 我沒有问题
+    traditional: 我没有問題
+
+  - text: 我冇問題
+    jyutping: ngo5 mou5 man6 tai4
+    translation: I don't have any questions
+    pinyin: Not implemented
+    simplified: 我冇問題
+    traditional: 我冇問題
+
+  - text: <h2> Questions </h2>
+  - text: >
+      Questions are composed by putting 冇 and 有 together:
+
+  - text: 你有冇問題呀
+    jyutping: nei5 jau6 mou5 man6 tai4 aa3
+    translation: Do you have any questions
+    pinyin: wo3 mei2 you3 wen4 ti2
+    traditional: 我有冇問題呀
